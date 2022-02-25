@@ -1,37 +1,22 @@
 #include "public.h"
-std::string tools::utf8_to_string(const std::string& str)
+
+namespace tools
 {
-    int nwLen = MultiByteToWideChar(CP_UTF8, 0, str.c_str(), -1, NULL, 0);
-    wchar_t* pwBuf = new wchar_t[nwLen + 1];
-    memset(pwBuf, 0, nwLen * 2 + 2);
-    MultiByteToWideChar(CP_UTF8, 0, str.c_str(), str.length(), pwBuf, nwLen);
-
-    int nLen = WideCharToMultiByte(CP_ACP, 0, pwBuf, -1, NULL, NULL, NULL, NULL);
-    char* pBuf = new char[nLen + 1];
-    memset(pBuf, 0, nLen + 1);
-    WideCharToMultiByte(CP_ACP, 0, pwBuf, nwLen, pBuf, nLen, NULL, NULL);
-
-    std::string ret = pBuf;
-    delete[]pBuf;
-    delete[]pwBuf;
-
-    return ret;
+    void cheatlog(const char* format, ...);
 }
-std::string tools::string_to_utf8(const std::string& str)
+
+void tools::cheatlog(const char* format, ...)
 {
-    int nwLen = MultiByteToWideChar(CP_ACP, 0, str.c_str(), -1, NULL, 0);
-    wchar_t* pwBuf = new wchar_t[nwLen + 1];
-    memset(pwBuf, 0, nwLen * 2 + 2);
-    MultiByteToWideChar(CP_ACP, 0, str.c_str(), str.length(), pwBuf, nwLen);
+    va_list ArgList;
+    PCHAR String = NULL;
+    ULONG Length = 0;
 
-    int nLen = WideCharToMultiByte(CP_UTF8, 0, pwBuf, -1, NULL, NULL, NULL, NULL);
-    char* pBuf = new char[nLen + 1];
-    memset(pBuf, 0, nLen + 1);
-    WideCharToMultiByte(CP_UTF8, 0, pwBuf, nwLen, pBuf, nLen, NULL, NULL);
+    va_start(  ArgList, format);
+    Length = _vscprintf(format, ArgList) + 1;
+    String = (PCHAR)cheatAllocHeap(Length);
+    vsprintf_s(String, Length, format, ArgList);
+    OutputDebugStringA(String);
 
-    std::string ret = pBuf;
-    delete[]pwBuf;
-    delete[]pBuf;
-
-    return ret;
+    cheatfreeHeap(String);
+    va_end(ArgList);
 }

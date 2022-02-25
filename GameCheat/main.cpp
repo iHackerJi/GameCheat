@@ -2,12 +2,7 @@
 // If you are new to Dear ImGui, read documentation from the docs/ folder + read the top of imgui.cpp.
 // Read online: https://github.com/ocornut/imgui/tree/master/docs
 #include "public.h"
-#include "imgui.h"
-#include "imgui_impl_win32.h"
-#include "imgui_impl_dx11.h"
-#include <d3d11.h>
-#pragma comment (lib,"D3D11.lib")
-#include <tchar.h>
+
 
 // Data
 static ID3D11Device* g_pd3dDevice = NULL;
@@ -31,10 +26,13 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     // Create application window
     //ImGui_ImplWin32_EnableDpiAwareness();
     WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("ImGui Example"), NULL };
+    RECT drawSize = { 0 };
+
+    cheat::init(drawSize);
     ::RegisterClassEx(&wc);
-    HWND hwnd = ::CreateWindow(wc.lpszClassName, _T("Dear ImGui DirectX11 Example"), WS_OVERLAPPEDWINDOW, 100, 100, 1280, 800, NULL, NULL, wc.hInstance, NULL);
-    //SetLayeredWindowAttributes(hwnd, RGB(255, 255, 255), NULL, LWA_COLORKEY);
-    //ImVec4 clear_color = ImGui::ColorConvertU32ToFloat4(IM_COL32(255, 255, 255, 0));
+    HWND hwnd = ::CreateWindowEx(WS_EX_TOPMOST | WS_EX_LAYERED,wc.lpszClassName, _T("Dear ImGui DirectX11 Example"), WS_POPUP, 100, 100, 1280, 800, NULL, NULL, wc.hInstance, NULL);
+    SetLayeredWindowAttributes(hwnd, 0, 0, LWA_ALPHA);
+    SetLayeredWindowAttributes(hwnd, 0, RGB(0, 0, 0), LWA_COLORKEY);
 
      // Initialize Direct3D
     if (!CreateDeviceD3D(hwnd))
@@ -45,8 +43,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     }
 
     // Show the window
-    ::ShowWindow(hwnd, SW_SHOWDEFAULT);
+    ::ShowWindow(hwnd, SW_SHOW);
+    MARGINS Margin = { -1, -1, -1, -1 };
+    DwmExtendFrameIntoClientArea(hwnd, &Margin);
+
     ::UpdateWindow(hwnd);
+    ::SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
 
     // Setup Dear ImGui context
     IMGUI_CHECKVERSION();
@@ -63,18 +65,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     ImGui_ImplWin32_Init(hwnd);
     ImGui_ImplDX11_Init(g_pd3dDevice, g_pd3dDeviceContext);
 
-    // Load Fonts
-    // - If no fonts are loaded, dear imgui will use the default font. You can also load multiple fonts and use ImGui::PushFont()/PopFont() to select them.
-    // - AddFontFromFileTTF() will return the ImFont* so you can store it if you need to select the font among multiple.
-    // - If the file cannot be loaded, the function will return NULL. Please handle those errors in your application (e.g. use an assertion, or display an error and quit).
-    // - The fonts will be rasterized at a given size (w/ oversampling) and stored into a texture when calling ImFontAtlas::Build()/GetTexDataAsXXXX(), which ImGui_ImplXXXX_NewFrame below will call.
-    // - Read 'docs/FONTS.md' for more instructions and details.
-    // - Remember that in C/C++ if you want to include a backslash \ in a string literal you need to write a double backslash \\ !
-    //io.Fonts->AddFontDefault();
-    //io.Fonts->AddFontFromFileTTF("../../misc/fonts/Roboto-Medium.ttf", 16.0f);
-    //io.Fonts->AddFontFromFileTTF("../../misc/fonts/Cousine-Regular.ttf", 15.0f);
-    //io.Fonts->AddFontFromFileTTF("../../misc/fonts/DroidSans.ttf", 16.0f);
-    //io.Fonts->AddFontFromFileTTF("../../misc/fonts/ProggyTiny.ttf", 10.0f);
     ImFont* font = io.Fonts->AddFontFromFileTTF("c:\\Windows\\Fonts\\msyh.ttc", 18.0f, NULL, io.Fonts->GetGlyphRangesChineseFull());
 
     //IM_ASSERT(font != NULL);
@@ -82,8 +72,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     // Our state
     bool show_demo_window = true;
     bool show_another_window = false;
-    bool aimBot = true;
-    bool showBox = true;
+
    ImVec4 clear_color = ImVec4(0.00f, 0.00f, 0.00f, 0.00f);
 
     // Main loop
@@ -116,13 +105,23 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         ImGui::Begin(u8"CS起源辅助", NULL, menuFlags);
         if (ImGui::CollapsingHeader(u8"方框"))
         {
-            ImGui::Checkbox(u8"队友方框", &showBox);
+            ImGui::Checkbox(u8"队友方框", &cheat::showBox);
         }
         if (ImGui::CollapsingHeader(u8"自瞄"))
         {
-            ImGui::Checkbox(u8"队友方框", &showBox);
+            ImGui::Checkbox(u8"开枪自瞄", &cheat::aimBot);
         }
+
+        ImGui::GetForegroundDrawList()->AddLine(ImVec2(100, 100), ImVec2(100, 200), ImColor(84, 255, 159, 255), 1);
+
         ImGui::End();
+
+        cheat::cheatDraw();
+
+
+
+
+        ImGui::EndFrame();
 
         // Rendering
         ImGui::Render();
@@ -167,9 +166,8 @@ bool CreateDeviceD3D(HWND hWnd)
     sd.SampleDesc.Quality = 0;
     sd.Windowed = TRUE;
     sd.SwapEffect = DXGI_SWAP_EFFECT_DISCARD;
-
     UINT createDeviceFlags = 0;
-    //createDeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;
+
     D3D_FEATURE_LEVEL featureLevel;
     const D3D_FEATURE_LEVEL featureLevelArray[2] = { D3D_FEATURE_LEVEL_11_0, D3D_FEATURE_LEVEL_10_0, };
     if (D3D11CreateDeviceAndSwapChain(NULL, D3D_DRIVER_TYPE_HARDWARE, NULL, createDeviceFlags, featureLevelArray, 2, D3D11_SDK_VERSION, &sd, &g_pSwapChain, &g_pd3dDevice, &featureLevel, &g_pd3dDeviceContext) != S_OK)

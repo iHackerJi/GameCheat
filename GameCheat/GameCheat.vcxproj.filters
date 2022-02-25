@@ -19,6 +19,9 @@
     <Filter Include="tools">
       <UniqueIdentifier>{146bccf6-f3c7-4116-b2a9-6a8256c15ec5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{03d7fb25-9d73-441e-ad84-30805a2d4a46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="tools.cpp">
       <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat.cpp">
+      <Filter>cheat</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +84,12 @@
       <Filter>tools</Filter>
     </ClInclude>
     <ClInclude Include="public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
