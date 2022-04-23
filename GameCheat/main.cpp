@@ -26,16 +26,16 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     // Create application window
     //ImGui_ImplWin32_EnableDpiAwareness();
     WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("ImGui Example"), NULL };
-    RECT drawSize = { 0 };
+    RECT RectGame = { 0 };
 
-    cheat::init(drawSize);
+    cheat::init(RectGame);
     ::RegisterClassEx(&wc);
-    HWND hwnd = ::CreateWindowEx(WS_EX_TOPMOST | WS_EX_LAYERED,wc.lpszClassName, _T("Dear ImGui DirectX11 Example"), WS_POPUP, 100, 100, 1280, 800, NULL, NULL, wc.hInstance, NULL);
-    SetLayeredWindowAttributes(hwnd, 0, 0, LWA_ALPHA);
-    SetLayeredWindowAttributes(hwnd, 0, RGB(0, 0, 0), LWA_COLORKEY);
+    cheat::hwndCurrent = ::CreateWindowEx(WS_EX_TOPMOST | WS_EX_LAYERED,wc.lpszClassName, _T("Dear ImGui DirectX11 Example"), WS_POPUP, RectGame.left, RectGame.top, RectGame.right-RectGame.left, RectGame.bottom-RectGame.top, NULL, NULL, wc.hInstance, NULL);
+    SetLayeredWindowAttributes(cheat::hwndCurrent, 0, 0, LWA_ALPHA);
+    SetLayeredWindowAttributes(cheat::hwndCurrent, 0, RGB(0, 0, 0), LWA_COLORKEY);
 
      // Initialize Direct3D
-    if (!CreateDeviceD3D(hwnd))
+    if (!CreateDeviceD3D(cheat::hwndCurrent))
     {
         CleanupDeviceD3D();
         ::UnregisterClass(wc.lpszClassName, wc.hInstance);
@@ -43,12 +43,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     }
 
     // Show the window
-    ::ShowWindow(hwnd, SW_SHOW);
+    ::ShowWindow(cheat::hwndCurrent, SW_SHOW);
     MARGINS Margin = { -1, -1, -1, -1 };
-    DwmExtendFrameIntoClientArea(hwnd, &Margin);
+    DwmExtendFrameIntoClientArea(cheat::hwndCurrent, &Margin);
 
-    ::UpdateWindow(hwnd);
-    ::SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
+    ::UpdateWindow(cheat::hwndCurrent);
+    ::SetWindowPos(cheat::hwndCurrent, HWND_TOPMOST, RectGame.left, RectGame.top, RectGame.right - RectGame.left, RectGame.bottom - RectGame.top, SWP_SHOWWINDOW);
 
     // Setup Dear ImGui context
     IMGUI_CHECKVERSION();
@@ -62,7 +62,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     //ImGui::StyleColorsClassic();
 
     // Setup Platform/Renderer backends
-    ImGui_ImplWin32_Init(hwnd);
+    ImGui_ImplWin32_Init(cheat::hwndCurrent);
     ImGui_ImplDX11_Init(g_pd3dDevice, g_pd3dDeviceContext);
 
     ImFont* font = io.Fonts->AddFontFromFileTTF("c:\\Windows\\Fonts\\msyh.ttc", 18.0f, NULL, io.Fonts->GetGlyphRangesChineseFull());
@@ -112,7 +112,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
             ImGui::Checkbox(u8"¿ªÇ¹×ÔÃé", &cheat::aimBot);
         }
 
-        ImGui::GetForegroundDrawList()->AddLine(ImVec2(100, 100), ImVec2(100, 200), ImColor(84, 255, 159, 255), 1);
+       ImGui::GetForegroundDrawList()->AddLine(ImVec2(0, 0), ImVec2(100, 0), ImColor(84, 255, 159, 255), 1);
 
         ImGui::End();
 
@@ -140,9 +140,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     ImGui::DestroyContext();
 
     CleanupDeviceD3D();
-    ::DestroyWindow(hwnd);
+    ::DestroyWindow(cheat::hwndCurrent);
     ::UnregisterClass(wc.lpszClassName, wc.hInstance);
-
+    cheat::unload();
     return 0;
 }
 

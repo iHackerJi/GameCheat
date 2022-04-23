@@ -168,6 +168,9 @@
     <ClInclude Include="public.h" />
     <ClInclude Include="tools.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="hl2.CT" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

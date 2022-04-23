@@ -93,4 +93,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="hl2.CT">
+      <Filter>cheat</Filter>
+    </None>
+  </ItemGroup>
 </Project>
