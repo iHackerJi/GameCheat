@@ -104,7 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="hl2.CT">
-      <Filter>cheat</Filter>
+      <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
 </Project>
