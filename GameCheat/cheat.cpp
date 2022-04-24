@@ -115,6 +115,8 @@ void cheat::cheatDraw()
 
 		float Scale = 1 / Sc_z;		//放缩比例
 		Sc_x = ViewWidth + (Matrix[0][0] * role.x+ Matrix[0][1] * role.y + Matrix[0][2] * role.z + Matrix[0][3]) * Scale * ViewWidth;
+		Sc_x = Sc_x - 27.0f;//这个Sc_x拿到的是敌人头部中间的位置，所以需要减去一点让它看起来自然段
+
 		Sc_foot = ViewHeight - (Matrix[1][0] * role.x + Matrix[1][1] * role.y + Matrix[1][2] * role .z + Matrix[1][3]) * Scale * ViewHeight;
 		Sc_head = ViewHeight - (Matrix[1][0] * role.x + Matrix[1][1] * role.y + Matrix[1][2] * (role.z + 68) + Matrix[1][3]) * Scale * ViewHeight;
 
@@ -124,6 +126,6 @@ void cheat::cheatDraw()
 		cheat::drawBox(Sc_x, Sc_head,BoxWidth ,  BoxHeight, ImColor(84, 255, 159, 255), 1.0f);
 
 		float hpPercentage = role.hp / 100.0f;
-		ImGui::GetForegroundDrawList()->AddLine(ImVec2(Sc_x - 10, Sc_head), ImVec2(Sc_x - 10, (Sc_head + BoxHeight * hpPercentage)), ImColor(247, 9, 104),5.0f );
+		ImGui::GetForegroundDrawList()->AddLine(ImVec2(Sc_x - 10.0f, Sc_head), ImVec2(Sc_x - 10.0f, (Sc_head + BoxHeight * hpPercentage)), ImColor(247, 9, 104),5.0f );
 	}
 }
