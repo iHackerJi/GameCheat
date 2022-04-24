@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="38">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"人物 血量"</Description>
+      <LastState Value="100" RealAddress="40B1D50C"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>server_css.dll+3D24D4</Address>
+      <Offsets>
+        <Offset>9c</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"人物X"</Description>
+      <LastState Value="-736.2047119" RealAddress="40B1D72C"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>server_css.dll+3D24D4</Address>
+      <Offsets>
+        <Offset>2BC</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"人物Y"</Description>
+      <LastState Value="-912.0108032" RealAddress="40B1D730"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>server_css.dll+3D24D4</Address>
+      <Offsets>
+        <Offset>2C0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"人物Z"</Description>
+      <LastState Value="138.9328461" RealAddress="40B1D734"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>server_css.dll+3D24D4</Address>
+      <Offsets>
+        <Offset>2C4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"第一个人物的Z"</Description>
+      <LastState Value="-116.7747192" RealAddress="18E21944"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>server_css.dll+3D24D4 + 1*10</Address>
+      <Offsets>
+        <Offset>2C4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"人物数量"</Description>
+      <LastState Value="2" RealAddress="223D24B8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>server_css.dll+3D24B8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"矩阵"</Description>
+      <LastState Value="1.290231705" RealAddress="2048BCB4"/>
+      <VariableType>Float</VariableType>
+      <Address>engine.dll+48BCB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"第一个人物的名字"</Description>
+      <LastState RealAddress="18E22C44"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>server_css.dll+3D24D4 + 1*10</Address>
+      <Offsets>
+        <Offset>15c4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"第二个人物的名字"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>server_css.dll+3D24D4+2*10</Address>
+      <Offsets>
+        <Offset>15c4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"第三个人物的名字"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>server_css.dll+3D24D4+3*10</Address>
+      <Offsets>
+        <Offset>15c4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"第三个人物的阵容标识"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>server_css.dll+3D24D4+3*10</Address>
+      <Offsets>
+        <Offset>8b*4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"第二个人物的阵容标识"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>server_css.dll+3D24D4+2*10</Address>
+      <Offsets>
+        <Offset>8b*4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"第一个人物的阵容标识"</Description>
+      <LastState Value="3" RealAddress="18E218AC"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>server_css.dll+3D24D4+1*10</Address>
+      <Offsets>
+        <Offset>8b*4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"第0个人物的阵容标识"</Description>
+      <LastState Value="2" RealAddress="40B1D69C"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>server_css.dll+3D24D4+0*10</Address>
+      <Offsets>
+        <Offset>8b*4</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Structures StructVersion="2">
+    <Structure Name="未命名的结构" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
+      <Elements>
+        <Element Offset="0" Vartype="Pointer" Bytesize="4" RLECount="2" OffsetHex="00000000" DisplayMethod="无符号整数"/>
+        <Element Offset="8" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000008" DisplayMethod="无符号整数"/>
+        <Element Offset="10" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000000A" DisplayMethod="无符号整数"/>
+        <Element Offset="12" Vartype="Pointer" Bytesize="4" OffsetHex="0000000C" Description="Pointer to instance of CWorld" DisplayMethod="无符号整数"/>
+        <Element Offset="16" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000010" DisplayMethod="十六进制"/>
+        <Element Offset="20" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000014" DisplayMethod="无符号整数"/>
+        <Element Offset="24" Vartype="Byte" Bytesize="1" OffsetHex="00000018" DisplayMethod="无符号整数"/>
+        <Element Offset="25" Vartype="String" Bytesize="5" OffsetHex="00000019" DisplayMethod="无符号整数"/>
+        <Element Offset="30" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000001E" DisplayMethod="无符号整数"/>
+        <Element Offset="32" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000020" DisplayMethod="十六进制"/>
+        <Element Offset="36" Vartype="String" Bytesize="4" OffsetHex="00000024" DisplayMethod="无符号整数"/>
+        <Element Offset="40" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000028" DisplayMethod="无符号整数"/>
+        <Element Offset="43" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000002B" DisplayMethod="无符号整数"/>
+        <Element Offset="45" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000002D" DisplayMethod="无符号整数"/>
+        <Element Offset="48" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000030" DisplayMethod="无符号整数"/>
+        <Element Offset="52" Vartype="Pointer" Bytesize="4" OffsetHex="00000034" DisplayMethod="无符号整数"/>
+        <Element Offset="56" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000038" DisplayMethod="无符号整数"/>
+        <Element Offset="60" Vartype="Pointer" Bytesize="4" OffsetHex="0000003C" Description="Pointer to instance of CCSBot" DisplayMethod="无符号整数"/>
+        <Element Offset="64" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000040" DisplayMethod="十六进制"/>
+        <Element Offset="68" Vartype="String" Bytesize="4" OffsetHex="00000044" DisplayMethod="无符号整数"/>
+        <Element Offset="72" Vartype="Byte" Bytesize="1" OffsetHex="00000048" DisplayMethod="无符号整数"/>
+        <Element Offset="73" Vartype="String" Bytesize="4" OffsetHex="00000049" DisplayMethod="无符号整数"/>
+        <Element Offset="77" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000004D" DisplayMethod="无符号整数"/>
+        <Element Offset="80" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000050" DisplayMethod="十六进制"/>
+        <Element Offset="84" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="00000054" DisplayMethod="无符号整数"/>
+        <Element Offset="91" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000005B" DisplayMethod="无符号整数"/>
+        <Element Offset="93" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000005D" DisplayMethod="无符号整数"/>
+        <Element Offset="96" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000060" DisplayMethod="无符号整数"/>
+        <Element Offset="100" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000064" DisplayMethod="无符号整数"/>
+        <Element Offset="108" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="0000006C" DisplayMethod="无符号整数"/>
+        <Element Offset="116" Vartype="String" Bytesize="9" OffsetHex="00000074" DisplayMethod="无符号整数"/>
+        <Element Offset="125" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000007D" DisplayMethod="无符号整数"/>
+        <Element Offset="128" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000080" DisplayMethod="十六进制"/>
+        <Element Offset="132" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000084" DisplayMethod="无符号整数"/>
+        <Element Offset="141" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000008D" DisplayMethod="无符号整数"/>
+        <Element Offset="144" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000090" DisplayMethod="十六进制"/>
+        <Element Offset="148" Vartype="String" Bytesize="9" OffsetHex="00000094" DisplayMethod="无符号整数"/>
+        <Element Offset="157" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000009D" DisplayMethod="无符号整数"/>
+        <Element Offset="159" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000009F" DisplayMethod="无符号整数"/>
+        <Element Offset="161" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000000A1" DisplayMethod="无符号整数"/>
+        <Element Offset="164" Vartype="String" Bytesize="9" OffsetHex="000000A4" DisplayMethod="无符号整数"/>
+        <Element Offset="173" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000000AD" DisplayMethod="无符号整数"/>
+        <Element Offset="176" Vartype="4 Bytes" Bytesize="4" OffsetHex="000000B0" DisplayMethod="十六进制"/>
+        <Element Offset="180" Vartype="String" Bytesize="9" OffsetHex="000000B4" DisplayMethod="无符号整数"/>
+        <Element Offset="189" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000000BD" DisplayMethod="无符号整数"/>
+        <Element Offset="192" Vartype="4 Bytes" Bytesize="4" OffsetHex="000000C0" DisplayMethod="无符号整数"/>
+        <Element Offset="196" Vartype="String" Bytesize="9" OffsetHex="000000C4" DisplayMethod="无符号整数"/>
+        <Element Offset="205" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000000CD" DisplayMethod="无符号整数"/>
+        <Element Offset="208" Vartype="4 Bytes" Bytesize="4" OffsetHex="000000D0" DisplayMethod="十六进制"/>
+        <Element Offset="212" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000000D4" DisplayMethod="无符号整数"/>
+        <Element Offset="220" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000000DC" DisplayMethod="无符号整数"/>
+        <Element Offset="228" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000000E4" DisplayMethod="无符号整数"/>
+        <Element Offset="236" Vartype="4 Bytes" Bytesize="4" OffsetHex="000000EC" DisplayMethod="无符号整数"/>
+        <Element Offset="240" Vartype="4 Bytes" Bytesize="4" OffsetHex="000000F0" DisplayMethod="十六进制"/>
+        <Element Offset="244" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000000F4" DisplayMethod="无符号整数"/>
+        <Element Offset="252" Vartype="4 Bytes" Bytesize="4" OffsetHex="000000FC" DisplayMethod="无符号整数"/>
+        <Element Offset="256" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000100" DisplayMethod="十六进制"/>
+        <Element Offset="260" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000104" DisplayMethod="无符号整数"/>
+        <Element Offset="268" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000010C" DisplayMethod="无符号整数"/>
+        <Element Offset="272" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000110" DisplayMethod="十六进制"/>
+        <Element Offset="276" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000114" DisplayMethod="无符号整数"/>
+        <Element Offset="279" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000117" DisplayMethod="无符号整数"/>
+        <Element Offset="281" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000119" DisplayMethod="无符号整数"/>
+        <Element Offset="284" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000011C" DisplayMethod="无符号整数"/>
+        <Element Offset="288" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000120" DisplayMethod="十六进制"/>
+        <Element Offset="292" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000124" DisplayMethod="无符号整数"/>
+        <Element Offset="300" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000012C" DisplayMethod="无符号整数"/>
+        <Element Offset="304" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000130" DisplayMethod="十六进制"/>
+        <Element Offset="308" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000134" DisplayMethod="无符号整数"/>
+        <Element Offset="316" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000013C" DisplayMethod="无符号整数"/>
+        <Element Offset="320" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000140" DisplayMethod="十六进制"/>
+        <Element Offset="324" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000144" DisplayMethod="无符号整数"/>
+        <Element Offset="332" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000014C" DisplayMethod="无符号整数"/>
+        <Element Offset="336" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000150" DisplayMethod="十六进制"/>
+        <Element Offset="340" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000154" DisplayMethod="无符号整数"/>
+        <Element Offset="348" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="0000015C" DisplayMethod="无符号整数"/>
+        <Element Offset="356" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000164" DisplayMethod="无符号整数"/>
+        <Element Offset="364" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="0000016C" DisplayMethod="无符号整数"/>
+        <Element Offset="372" Vartype="String" Bytesize="9" OffsetHex="00000174" DisplayMethod="无符号整数"/>
+        <Element Offset="381" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000017D" DisplayMethod="无符号整数"/>
+        <Element Offset="384" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000180" DisplayMethod="十六进制"/>
+        <Element Offset="388" Vartype="String" Bytesize="9" OffsetHex="00000184" DisplayMethod="无符号整数"/>
+        <Element Offset="397" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000018D" DisplayMethod="无符号整数"/>
+        <Element Offset="400" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000190" DisplayMethod="十六进制"/>
+        <Element Offset="404" Vartype="String" Bytesize="9" OffsetHex="00000194" DisplayMethod="无符号整数"/>
+        <Element Offset="413" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000019D" DisplayMethod="无符号整数"/>
+        <Element Offset="416" Vartype="4 Bytes" Bytesize="4" OffsetHex="000001A0" DisplayMethod="无符号整数"/>
+        <Element Offset="420" Vartype="String" Bytesize="9" OffsetHex="000001A4" DisplayMethod="无符号整数"/>
+        <Element Offset="429" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000001AD" DisplayMethod="无符号整数"/>
+        <Element Offset="432" Vartype="4 Bytes" Bytesize="4" OffsetHex="000001B0" DisplayMethod="十六进制"/>
+        <Element Offset="436" Vartype="String" Bytesize="9" OffsetHex="000001B4" DisplayMethod="无符号整数"/>
+        <Element Offset="445" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000001BD" DisplayMethod="无符号整数"/>
+        <Element Offset="448" Vartype="4 Bytes" Bytesize="4" OffsetHex="000001C0" DisplayMethod="无符号整数"/>
+        <Element Offset="452" Vartype="String" Bytesize="9" OffsetHex="000001C4" DisplayMethod="无符号整数"/>
+        <Element Offset="461" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000001CD" DisplayMethod="无符号整数"/>
+        <Element Offset="464" Vartype="4 Bytes" Bytesize="4" OffsetHex="000001D0" DisplayMethod="十六进制"/>
+        <Element Offset="468" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000001D4" DisplayMethod="无符号整数"/>
+        <Element Offset="476" Vartype="4 Bytes" Bytesize="4" OffsetHex="000001DC" DisplayMethod="无符号整数"/>
+        <Element Offset="480" Vartype="4 Bytes" Bytesize="4" OffsetHex="000001E0" DisplayMethod="十六进制"/>
+        <Element Offset="484" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000001E4" DisplayMethod="无符号整数"/>
+        <Element Offset="492" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000001EC" DisplayMethod="无符号整数"/>
+        <Element Offset="500" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000001F4" DisplayMethod="无符号整数"/>
+        <Element Offset="508" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000001FC" DisplayMethod="无符号整数"/>
+        <Element Offset="516" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000204" DisplayMethod="无符号整数"/>
+        <Element Offset="524" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000020C" DisplayMethod="无符号整数"/>
+        <Element Offset="528" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000210" DisplayMethod="十六进制"/>
+        <Element Offset="532" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000214" DisplayMethod="无符号整数"/>
+        <Element Offset="535" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000217" DisplayMethod="无符号整数"/>
+        <Element Offset="537" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000219" DisplayMethod="无符号整数"/>
+        <Element Offset="540" Vartype="Pointer" Bytesize="4" OffsetHex="0000021C" Description="Pointer to instance of CCSTeam" DisplayMethod="无符号整数"/>
+        <Element Offset="544" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000220" DisplayMethod="十六进制"/>
+        <Element Offset="548" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000224" DisplayMethod="无符号整数"/>
+        <Element Offset="556" Vartype="Pointer" Bytesize="4" OffsetHex="0000022C" Description="Pointer to instance of CCSTeam" DisplayMethod="无符号整数"/>
+        <Element Offset="560" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000230" DisplayMethod="十六进制"/>
+        <Element Offset="564" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000234" DisplayMethod="无符号整数"/>
+        <Element Offset="572" Vartype="Pointer" Bytesize="4" OffsetHex="0000023C" Description="Pointer to instance of CCSTeam" DisplayMethod="无符号整数"/>
+        <Element Offset="576" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000240" DisplayMethod="无符号整数"/>
+        <Element Offset="580" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000244" DisplayMethod="无符号整数"/>
+        <Element Offset="588" Vartype="Pointer" Bytesize="4" OffsetHex="0000024C" Description="Pointer to instance of CCSTeam" DisplayMethod="无符号整数"/>
+        <Element Offset="592" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000250" DisplayMethod="十六进制"/>
+        <Element Offset="596" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000254" DisplayMethod="无符号整数"/>
+        <Element Offset="604" Vartype="Pointer" Bytesize="4" OffsetHex="0000025C" Description="Pointer to instance of CSoundEnt" DisplayMethod="无符号整数"/>
+        <Element Offset="608" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000260" DisplayMethod="十六进制"/>
+        <Element Offset="612" Vartype="Byte" Bytesize="1" OffsetHex="00000264" DisplayMethod="无符号整数"/>
+        <Element Offset="613" Vartype="String" Bytesize="7" OffsetHex="00000265" DisplayMethod="无符号整数"/>
+        <Element Offset="620" Vartype="Pointer" Bytesize="4" OffsetHex="0000026C" Description="Pointer to instance of CCSPlayerResource" DisplayMethod="无符号整数"/>
+        <Element Offset="624" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000270" DisplayMethod="十六进制"/>
+        <Element Offset="628" Vartype="Byte" Bytesize="1" OffsetHex="00000274" DisplayMethod="无符号整数"/>
+        <Element Offset="629" Vartype="String" Bytesize="7" OffsetHex="00000275" DisplayMethod="无符号整数"/>
+        <Element Offset="636" Vartype="Pointer" Bytesize="4" OffsetHex="0000027C" Description="Pointer to instance of CCSGameRulesProxy" DisplayMethod="无符号整数"/>
+        <Element Offset="640" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000280" DisplayMethod="无符号整数"/>
+        <Element Offset="644" Vartype="String" Bytesize="9" OffsetHex="00000284" DisplayMethod="无符号整数"/>
+        <Element Offset="653" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000028D" DisplayMethod="无符号整数"/>
+        <Element Offset="656" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000290" DisplayMethod="十六进制"/>
+        <Element Offset="660" Vartype="String" Bytesize="8" OffsetHex="00000294" DisplayMethod="无符号整数"/>
+        <Element Offset="668" Vartype="Pointer" Bytesize="4" OffsetHex="0000029C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="672" Vartype="4 Bytes" Bytesize="4" OffsetHex="000002A0" DisplayMethod="十六进制"/>
+        <Element Offset="676" Vartype="String" Bytesize="8" OffsetHex="000002A4" DisplayMethod="无符号整数"/>
+        <Element Offset="684" Vartype="Pointer" Bytesize="4" OffsetHex="000002AC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="688" Vartype="4 Bytes" Bytesize="4" OffsetHex="000002B0" DisplayMethod="十六进制"/>
+        <Element Offset="692" Vartype="String" Bytesize="8" OffsetHex="000002B4" DisplayMethod="无符号整数"/>
+        <Element Offset="700" Vartype="Pointer" Bytesize="4" OffsetHex="000002BC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="704" Vartype="4 Bytes" Bytesize="4" OffsetHex="000002C0" DisplayMethod="十六进制"/>
+        <Element Offset="708" Vartype="String" Bytesize="4" OffsetHex="000002C4" DisplayMethod="无符号整数"/>
+        <Element Offset="712" Vartype="Byte" Bytesize="1" OffsetHex="000002C8" DisplayMethod="无符号整数"/>
+        <Element Offset="713" Vartype="String" Bytesize="5" OffsetHex="000002C9" DisplayMethod="无符号整数"/>
+        <Element Offset="718" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000002CE" DisplayMethod="无符号整数"/>
+        <Element Offset="720" Vartype="4 Bytes" Bytesize="4" OffsetHex="000002D0" DisplayMethod="十六进制"/>
+        <Element Offset="724" Vartype="String" Bytesize="4" OffsetHex="000002D4" DisplayMethod="无符号整数"/>
+        <Element Offset="728" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000002D8" DisplayMethod="无符号整数"/>
+        <Element Offset="732" Vartype="Pointer" Bytesize="4" OffsetHex="000002DC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="736" Vartype="4 Bytes" Bytesize="4" OffsetHex="000002E0" DisplayMethod="十六进制"/>
+        <Element Offset="740" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000002E4" DisplayMethod="无符号整数"/>
+        <Element Offset="748" Vartype="Pointer" Bytesize="4" OffsetHex="000002EC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="752" Vartype="4 Bytes" Bytesize="4" OffsetHex="000002F0" DisplayMethod="十六进制"/>
+        <Element Offset="756" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="000002F4" DisplayMethod="无符号整数"/>
+        <Element Offset="761" Vartype="String" Bytesize="5" OffsetHex="000002F9" DisplayMethod="无符号整数"/>
+        <Element Offset="766" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000002FE" DisplayMethod="无符号整数"/>
+        <Element Offset="768" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000300" DisplayMethod="十六进制"/>
+        <Element Offset="772" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000304" DisplayMethod="无符号整数"/>
+        <Element Offset="775" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000307" DisplayMethod="无符号整数"/>
+        <Element Offset="777" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000309" DisplayMethod="无符号整数"/>
+        <Element Offset="780" Vartype="Pointer" Bytesize="4" OffsetHex="0000030C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="784" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000310" DisplayMethod="十六进制"/>
+        <Element Offset="788" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000314" DisplayMethod="无符号整数"/>
+        <Element Offset="796" Vartype="Pointer" Bytesize="4" OffsetHex="0000031C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="800" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000320" DisplayMethod="十六进制"/>
+        <Element Offset="804" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000324" DisplayMethod="无符号整数"/>
+        <Element Offset="809" Vartype="String" Bytesize="5" OffsetHex="00000329" DisplayMethod="无符号整数"/>
+        <Element Offset="814" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000032E" DisplayMethod="无符号整数"/>
+        <Element Offset="816" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000330" DisplayMethod="十六进制"/>
+        <Element Offset="820" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000334" DisplayMethod="无符号整数"/>
+        <Element Offset="828" Vartype="Pointer" Bytesize="4" OffsetHex="0000033C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="832" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000340" DisplayMethod="十六进制"/>
+        <Element Offset="836" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000344" DisplayMethod="无符号整数"/>
+        <Element Offset="844" Vartype="Pointer" Bytesize="4" OffsetHex="0000034C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="848" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000350" DisplayMethod="十六进制"/>
+        <Element Offset="852" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="00000354" DisplayMethod="无符号整数"/>
+        <Element Offset="859" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000035B" DisplayMethod="无符号整数"/>
+        <Element Offset="861" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000035D" DisplayMethod="无符号整数"/>
+        <Element Offset="864" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000360" DisplayMethod="无符号整数"/>
+        <Element Offset="868" Vartype="Byte" Bytesize="1" OffsetHex="00000364" DisplayMethod="无符号整数"/>
+        <Element Offset="869" Vartype="String" Bytesize="9" OffsetHex="00000365" DisplayMethod="无符号整数"/>
+        <Element Offset="878" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000036E" DisplayMethod="无符号整数"/>
+        <Element Offset="880" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000370" DisplayMethod="十六进制"/>
+        <Element Offset="884" Vartype="Byte" Bytesize="1" OffsetHex="00000374" DisplayMethod="无符号整数"/>
+        <Element Offset="885" Vartype="String" Bytesize="7" OffsetHex="00000375" DisplayMethod="无符号整数"/>
+        <Element Offset="892" Vartype="Pointer" Bytesize="4" OffsetHex="0000037C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="896" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000380" DisplayMethod="十六进制"/>
+        <Element Offset="900" Vartype="String" Bytesize="8" OffsetHex="00000384" DisplayMethod="无符号整数"/>
+        <Element Offset="908" Vartype="Pointer" Bytesize="4" OffsetHex="0000038C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="912" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000390" DisplayMethod="十六进制"/>
+        <Element Offset="916" Vartype="String" Bytesize="8" OffsetHex="00000394" DisplayMethod="无符号整数"/>
+        <Element Offset="924" Vartype="Pointer" Bytesize="4" OffsetHex="0000039C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="928" Vartype="4 Bytes" Bytesize="4" OffsetHex="000003A0" DisplayMethod="十六进制"/>
+        <Element Offset="932" Vartype="String" Bytesize="8" OffsetHex="000003A4" DisplayMethod="无符号整数"/>
+        <Element Offset="940" Vartype="Pointer" Bytesize="4" OffsetHex="000003AC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="944" Vartype="4 Bytes" Bytesize="4" OffsetHex="000003B0" DisplayMethod="十六进制"/>
+        <Element Offset="948" Vartype="String" Bytesize="8" OffsetHex="000003B4" DisplayMethod="无符号整数"/>
+        <Element Offset="956" Vartype="Pointer" Bytesize="4" OffsetHex="000003BC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="960" Vartype="4 Bytes" Bytesize="4" OffsetHex="000003C0" DisplayMethod="无符号整数"/>
+        <Element Offset="964" Vartype="String" Bytesize="4" OffsetHex="000003C4" DisplayMethod="无符号整数"/>
+        <Element Offset="968" Vartype="Byte" Bytesize="1" OffsetHex="000003C8" DisplayMethod="无符号整数"/>
+        <Element Offset="969" Vartype="String" Bytesize="5" OffsetHex="000003C9" DisplayMethod="无符号整数"/>
+        <Element Offset="974" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000003CE" DisplayMethod="无符号整数"/>
+        <Element Offset="976" Vartype="4 Bytes" Bytesize="4" OffsetHex="000003D0" DisplayMethod="无符号整数"/>
+        <Element Offset="980" Vartype="String" Bytesize="4" OffsetHex="000003D4" DisplayMethod="无符号整数"/>
+        <Element Offset="984" Vartype="Byte" Bytesize="1" OffsetHex="000003D8" DisplayMethod="无符号整数"/>
+        <Element Offset="985" Vartype="String" Bytesize="5" OffsetHex="000003D9" DisplayMethod="无符号整数"/>
+        <Element Offset="990" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000003DE" DisplayMethod="无符号整数"/>
+        <Element Offset="992" Vartype="4 Bytes" Bytesize="4" OffsetHex="000003E0" DisplayMethod="十六进制"/>
+        <Element Offset="996" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="000003E4" DisplayMethod="无符号整数"/>
+        <Element Offset="1003" Vartype="2 Bytes" Bytesize="2" OffsetHex="000003EB" DisplayMethod="无符号整数"/>
+        <Element Offset="1005" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000003ED" DisplayMethod="无符号整数"/>
+        <Element Offset="1007" Vartype="2 Bytes" Bytesize="2" OffsetHex="000003EF" DisplayMethod="无符号整数"/>
+        <Element Offset="1009" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000003F1" DisplayMethod="无符号整数"/>
+        <Element Offset="1017" Vartype="String" Bytesize="5" OffsetHex="000003F9" DisplayMethod="无符号整数"/>
+        <Element Offset="1022" Vartype="Byte" Bytesize="1" OffsetHex="000003FE" DisplayMethod="无符号整数"/>
+        <Element Offset="1023" Vartype="2 Bytes" Bytesize="2" OffsetHex="000003FF" DisplayMethod="无符号整数"/>
+        <Element Offset="1025" Vartype="Byte" Bytesize="1" RLECount="6" OffsetHex="00000401" DisplayMethod="无符号整数"/>
+        <Element Offset="1031" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000407" DisplayMethod="无符号整数"/>
+        <Element Offset="1033" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000409" DisplayMethod="无符号整数"/>
+        <Element Offset="1036" Vartype="Pointer" Bytesize="4" OffsetHex="0000040C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1040" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000410" DisplayMethod="十六进制"/>
+        <Element Offset="1044" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000414" DisplayMethod="无符号整数"/>
+        <Element Offset="1052" Vartype="Pointer" Bytesize="4" OffsetHex="0000041C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1056" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000420" DisplayMethod="十六进制"/>
+        <Element Offset="1060" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000424" DisplayMethod="无符号整数"/>
+        <Element Offset="1068" Vartype="Pointer" Bytesize="4" OffsetHex="0000042C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1072" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000430" DisplayMethod="十六进制"/>
+        <Element Offset="1076" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000434" DisplayMethod="无符号整数"/>
+        <Element Offset="1081" Vartype="String" Bytesize="4" OffsetHex="00000439" DisplayMethod="无符号整数"/>
+        <Element Offset="1085" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000043D" DisplayMethod="无符号整数"/>
+        <Element Offset="1088" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000440" DisplayMethod="十六进制"/>
+        <Element Offset="1092" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000444" DisplayMethod="无符号整数"/>
+        <Element Offset="1097" Vartype="String" Bytesize="4" OffsetHex="00000449" DisplayMethod="无符号整数"/>
+        <Element Offset="1101" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000044D" DisplayMethod="无符号整数"/>
+        <Element Offset="1103" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000044F" DisplayMethod="无符号整数"/>
+        <Element Offset="1105" Vartype="Byte" Bytesize="1" RLECount="11" OffsetHex="00000451" DisplayMethod="无符号整数"/>
+        <Element Offset="1116" Vartype="Pointer" Bytesize="4" OffsetHex="0000045C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1120" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000460" DisplayMethod="无符号整数"/>
+        <Element Offset="1124" Vartype="Byte" Bytesize="1" OffsetHex="00000464" DisplayMethod="无符号整数"/>
+        <Element Offset="1125" Vartype="String" Bytesize="9" OffsetHex="00000465" DisplayMethod="无符号整数"/>
+        <Element Offset="1134" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000046E" DisplayMethod="无符号整数"/>
+        <Element Offset="1136" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000470" DisplayMethod="无符号整数"/>
+        <Element Offset="1140" Vartype="Byte" Bytesize="1" OffsetHex="00000474" DisplayMethod="无符号整数"/>
+        <Element Offset="1141" Vartype="String" Bytesize="7" OffsetHex="00000475" DisplayMethod="无符号整数"/>
+        <Element Offset="1148" Vartype="Pointer" Bytesize="4" OffsetHex="0000047C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1152" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000480" DisplayMethod="十六进制"/>
+        <Element Offset="1156" Vartype="String" Bytesize="8" OffsetHex="00000484" DisplayMethod="无符号整数"/>
+        <Element Offset="1164" Vartype="Pointer" Bytesize="4" OffsetHex="0000048C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1168" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000490" DisplayMethod="无符号整数"/>
+        <Element Offset="1172" Vartype="String" Bytesize="10" OffsetHex="00000494" DisplayMethod="无符号整数"/>
+        <Element Offset="1182" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000049E" DisplayMethod="无符号整数"/>
+        <Element Offset="1184" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004A0" DisplayMethod="十六进制"/>
+        <Element Offset="1188" Vartype="String" Bytesize="8" OffsetHex="000004A4" DisplayMethod="无符号整数"/>
+        <Element Offset="1196" Vartype="Pointer" Bytesize="4" OffsetHex="000004AC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1200" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004B0" DisplayMethod="十六进制"/>
+        <Element Offset="1204" Vartype="String" Bytesize="10" OffsetHex="000004B4" DisplayMethod="无符号整数"/>
+        <Element Offset="1214" Vartype="2 Bytes" Bytesize="2" OffsetHex="000004BE" DisplayMethod="无符号整数"/>
+        <Element Offset="1216" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004C0" DisplayMethod="十六进制"/>
+        <Element Offset="1220" Vartype="String" Bytesize="4" OffsetHex="000004C4" DisplayMethod="无符号整数"/>
+        <Element Offset="1224" Vartype="Byte" Bytesize="1" OffsetHex="000004C8" DisplayMethod="无符号整数"/>
+        <Element Offset="1225" Vartype="String" Bytesize="4" OffsetHex="000004C9" DisplayMethod="无符号整数"/>
+        <Element Offset="1229" Vartype="Byte" Bytesize="1" OffsetHex="000004CD" DisplayMethod="无符号整数"/>
+        <Element Offset="1230" Vartype="2 Bytes" Bytesize="2" OffsetHex="000004CE" DisplayMethod="无符号整数"/>
+        <Element Offset="1232" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004D0" DisplayMethod="十六进制"/>
+        <Element Offset="1236" Vartype="String" Bytesize="4" OffsetHex="000004D4" DisplayMethod="无符号整数"/>
+        <Element Offset="1240" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000004D8" DisplayMethod="无符号整数"/>
+        <Element Offset="1244" Vartype="Pointer" Bytesize="4" OffsetHex="000004DC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1248" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004E0" DisplayMethod="十六进制"/>
+        <Element Offset="1252" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000004E4" DisplayMethod="无符号整数"/>
+        <Element Offset="1260" Vartype="Pointer" Bytesize="4" OffsetHex="000004EC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1264" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004F0" DisplayMethod="十六进制"/>
+        <Element Offset="1268" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000004F4" DisplayMethod="无符号整数"/>
+        <Element Offset="1276" Vartype="Pointer" Bytesize="4" OffsetHex="000004FC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1280" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000500" DisplayMethod="十六进制"/>
+        <Element Offset="1284" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000504" DisplayMethod="无符号整数"/>
+        <Element Offset="1287" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000507" DisplayMethod="无符号整数"/>
+        <Element Offset="1289" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000509" DisplayMethod="无符号整数"/>
+        <Element Offset="1292" Vartype="Pointer" Bytesize="4" OffsetHex="0000050C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1296" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000510" DisplayMethod="十六进制"/>
+        <Element Offset="1300" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000514" DisplayMethod="无符号整数"/>
+        <Element Offset="1308" Vartype="Pointer" Bytesize="4" OffsetHex="0000051C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1312" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000520" DisplayMethod="十六进制"/>
+        <Element Offset="1316" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000524" DisplayMethod="无符号整数"/>
+        <Element Offset="1321" Vartype="String" Bytesize="4" OffsetHex="00000529" DisplayMethod="无符号整数"/>
+        <Element Offset="1325" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000052D" DisplayMethod="无符号整数"/>
+        <Element Offset="1328" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000530" DisplayMethod="十六进制"/>
+        <Element Offset="1332" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000534" DisplayMethod="无符号整数"/>
+        <Element Offset="1340" Vartype="Pointer" Bytesize="4" OffsetHex="0000053C" Description="Pointer to instance of CPhysicsProp" DisplayMethod="无符号整数"/>
+        <Element Offset="1344" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000540" DisplayMethod="十六进制"/>
+        <Element Offset="1348" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000544" DisplayMethod="无符号整数"/>
+        <Element Offset="1351" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000547" DisplayMethod="无符号整数"/>
+        <Element Offset="1353" Vartype="String" Bytesize="5" OffsetHex="00000549" DisplayMethod="无符号整数"/>
+        <Element Offset="1358" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000054E" DisplayMethod="无符号整数"/>
+        <Element Offset="1360" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000550" DisplayMethod="十六进制"/>
+        <Element Offset="1364" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000554" DisplayMethod="无符号整数"/>
+        <Element Offset="1372" Vartype="Pointer" Bytesize="4" OffsetHex="0000055C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1376" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000560" DisplayMethod="十六进制"/>
+        <Element Offset="1380" Vartype="Byte" Bytesize="1" OffsetHex="00000564" DisplayMethod="无符号整数"/>
+        <Element Offset="1381" Vartype="String" Bytesize="7" OffsetHex="00000565" DisplayMethod="无符号整数"/>
+        <Element Offset="1388" Vartype="Pointer" Bytesize="4" OffsetHex="0000056C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1392" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000570" DisplayMethod="十六进制"/>
+        <Element Offset="1396" Vartype="Byte" Bytesize="1" OffsetHex="00000574" DisplayMethod="无符号整数"/>
+        <Element Offset="1397" Vartype="String" Bytesize="7" OffsetHex="00000575" DisplayMethod="无符号整数"/>
+        <Element Offset="1404" Vartype="Pointer" Bytesize="4" OffsetHex="0000057C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1408" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000580" DisplayMethod="十六进制"/>
+        <Element Offset="1412" Vartype="String" Bytesize="8" OffsetHex="00000584" DisplayMethod="无符号整数"/>
+        <Element Offset="1420" Vartype="Pointer" Bytesize="4" OffsetHex="0000058C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="1424" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000590" DisplayMethod="十六进制"/>
+        <Element Offset="1428" Vartype="String" Bytesize="9" OffsetHex="00000594" DisplayMethod="无符号整数"/>
+        <Element Offset="1437" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000059D" DisplayMethod="无符号整数"/>
+        <Element Offset="1440" Vartype="4 Bytes" Bytesize="4" OffsetHex="000005A0" DisplayMethod="十六进制"/>
+        <Element Offset="1444" Vartype="String" Bytesize="9" OffsetHex="000005A4" DisplayMethod="无符号整数"/>
+        <Element Offset="1453" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000005AD" DisplayMethod="无符号整数"/>
+        <Element Offset="1456" Vartype="4 Bytes" Bytesize="4" OffsetHex="000005B0" DisplayMethod="无符号整数"/>
+        <Element Offset="1460" Vartype="String" Bytesize="8" OffsetHex="000005B4" DisplayMethod="无符号整数"/>
+        <Element Offset="1468" Vartype="Pointer" Bytesize="4" OffsetHex="000005BC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="1472" Vartype="4 Bytes" Bytesize="4" OffsetHex="000005C0" DisplayMethod="无符号整数"/>
+        <Element Offset="1476" Vartype="String" Bytesize="4" OffsetHex="000005C4" DisplayMethod="无符号整数"/>
+        <Element Offset="1480" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000005C8" DisplayMethod="无符号整数"/>
+        <Element Offset="1484" Vartype="Pointer" Bytesize="4" OffsetHex="000005CC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="1488" Vartype="4 Bytes" Bytesize="4" OffsetHex="000005D0" DisplayMethod="十六进制"/>
+        <Element Offset="1492" Vartype="String" Bytesize="4" OffsetHex="000005D4" DisplayMethod="无符号整数"/>
+        <Element Offset="1496" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000005D8" DisplayMethod="无符号整数"/>
+        <Element Offset="1500" Vartype="Pointer" Bytesize="4" OffsetHex="000005DC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="1504" Vartype="4 Bytes" Bytesize="4" OffsetHex="000005E0" DisplayMethod="无符号整数"/>
+        <Element Offset="1508" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="000005E4" DisplayMethod="无符号整数"/>
+        <Element Offset="1513" Vartype="String" Bytesize="4" OffsetHex="000005E9" DisplayMethod="无符号整数"/>
+        <Element Offset="1517" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000005ED" DisplayMethod="无符号整数"/>
+        <Element Offset="1520" Vartype="4 Bytes" Bytesize="4" OffsetHex="000005F0" DisplayMethod="无符号整数"/>
+        <Element Offset="1524" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000005F4" DisplayMethod="无符号整数"/>
+        <Element Offset="1532" Vartype="Pointer" Bytesize="4" OffsetHex="000005FC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="1536" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000600" DisplayMethod="十六进制"/>
+        <Element Offset="1540" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000604" DisplayMethod="无符号整数"/>
+        <Element Offset="1543" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000607" DisplayMethod="无符号整数"/>
+        <Element Offset="1545" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000609" DisplayMethod="无符号整数"/>
+        <Element Offset="1547" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000060B" DisplayMethod="无符号整数"/>
+        <Element Offset="1549" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000060D" DisplayMethod="无符号整数"/>
+        <Element Offset="1552" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000610" DisplayMethod="无符号整数"/>
+        <Element Offset="1556" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000614" DisplayMethod="无符号整数"/>
+        <Element Offset="1564" Vartype="Pointer" Bytesize="4" OffsetHex="0000061C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="1568" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000620" DisplayMethod="无符号整数"/>
+        <Element Offset="1572" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000624" DisplayMethod="无符号整数"/>
+        <Element Offset="1580" Vartype="Pointer" Bytesize="4" OffsetHex="0000062C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1584" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000630" DisplayMethod="十六进制"/>
+        <Element Offset="1588" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000634" DisplayMethod="无符号整数"/>
+        <Element Offset="1596" Vartype="Pointer" Bytesize="4" OffsetHex="0000063C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1600" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000640" DisplayMethod="十六进制"/>
+        <Element Offset="1604" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="00000644" DisplayMethod="无符号整数"/>
+        <Element Offset="1611" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000064B" DisplayMethod="无符号整数"/>
+        <Element Offset="1613" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000064D" DisplayMethod="无符号整数"/>
+        <Element Offset="1615" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000064F" DisplayMethod="无符号整数"/>
+        <Element Offset="1617" Vartype="Byte" Bytesize="1" RLECount="11" OffsetHex="00000651" DisplayMethod="无符号整数"/>
+        <Element Offset="1628" Vartype="Pointer" Bytesize="4" OffsetHex="0000065C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1632" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000660" DisplayMethod="十六进制"/>
+        <Element Offset="1636" Vartype="Byte" Bytesize="1" OffsetHex="00000664" DisplayMethod="无符号整数"/>
+        <Element Offset="1637" Vartype="String" Bytesize="8" OffsetHex="00000665" DisplayMethod="无符号整数"/>
+        <Element Offset="1645" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000066D" DisplayMethod="无符号整数"/>
+        <Element Offset="1648" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000670" DisplayMethod="十六进制"/>
+        <Element Offset="1652" Vartype="Byte" Bytesize="1" OffsetHex="00000674" DisplayMethod="无符号整数"/>
+        <Element Offset="1653" Vartype="String" Bytesize="9" OffsetHex="00000675" DisplayMethod="无符号整数"/>
+        <Element Offset="1662" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000067E" DisplayMethod="无符号整数"/>
+        <Element Offset="1664" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000680" DisplayMethod="无符号整数"/>
+        <Element Offset="1668" Vartype="String" Bytesize="8" OffsetHex="00000684" DisplayMethod="无符号整数"/>
+        <Element Offset="1676" Vartype="Pointer" Bytesize="4" OffsetHex="0000068C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1680" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000690" DisplayMethod="十六进制"/>
+        <Element Offset="1684" Vartype="String" Bytesize="8" OffsetHex="00000694" DisplayMethod="无符号整数"/>
+        <Element Offset="1692" Vartype="Pointer" Bytesize="4" OffsetHex="0000069C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1696" Vartype="4 Bytes" Bytesize="4" OffsetHex="000006A0" DisplayMethod="十六进制"/>
+        <Element Offset="1700" Vartype="String" Bytesize="10" OffsetHex="000006A4" DisplayMethod="无符号整数"/>
+        <Element Offset="1710" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000006AE" DisplayMethod="无符号整数"/>
+        <Element Offset="1712" Vartype="4 Bytes" Bytesize="4" OffsetHex="000006B0" DisplayMethod="十六进制"/>
+        <Element Offset="1716" Vartype="String" Bytesize="10" OffsetHex="000006B4" DisplayMethod="无符号整数"/>
+        <Element Offset="1726" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000006BE" DisplayMethod="无符号整数"/>
+        <Element Offset="1728" Vartype="4 Bytes" Bytesize="4" OffsetHex="000006C0" DisplayMethod="无符号整数"/>
+        <Element Offset="1732" Vartype="String" Bytesize="4" OffsetHex="000006C4" DisplayMethod="无符号整数"/>
+        <Element Offset="1736" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000006C8" DisplayMethod="无符号整数"/>
+        <Element Offset="1740" Vartype="Pointer" Bytesize="4" OffsetHex="000006CC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1744" Vartype="4 Bytes" Bytesize="4" OffsetHex="000006D0" DisplayMethod="无符号整数"/>
+        <Element Offset="1748" Vartype="String" Bytesize="4" OffsetHex="000006D4" DisplayMethod="无符号整数"/>
+        <Element Offset="1752" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000006D8" DisplayMethod="无符号整数"/>
+        <Element Offset="1756" Vartype="Pointer" Bytesize="4" OffsetHex="000006DC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1760" Vartype="4 Bytes" Bytesize="4" OffsetHex="000006E0" DisplayMethod="十六进制"/>
+        <Element Offset="1764" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000006E4" DisplayMethod="无符号整数"/>
+        <Element Offset="1772" Vartype="Pointer" Bytesize="4" OffsetHex="000006EC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1776" Vartype="4 Bytes" Bytesize="4" OffsetHex="000006F0" DisplayMethod="十六进制"/>
+        <Element Offset="1780" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="000006F4" DisplayMethod="无符号整数"/>
+        <Element Offset="1785" Vartype="String" Bytesize="5" OffsetHex="000006F9" DisplayMethod="无符号整数"/>
+        <Element Offset="1790" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000006FE" DisplayMethod="无符号整数"/>
+        <Element Offset="1792" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000700" DisplayMethod="十六进制"/>
+        <Element Offset="1796" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000704" DisplayMethod="无符号整数"/>
+        <Element Offset="1799" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000707" DisplayMethod="无符号整数"/>
+        <Element Offset="1801" Vartype="String" Bytesize="5" OffsetHex="00000709" DisplayMethod="无符号整数"/>
+        <Element Offset="1806" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000070E" DisplayMethod="无符号整数"/>
+        <Element Offset="1808" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000710" DisplayMethod="十六进制"/>
+        <Element Offset="1812" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000714" DisplayMethod="无符号整数"/>
+        <Element Offset="1817" Vartype="String" Bytesize="5" OffsetHex="00000719" DisplayMethod="无符号整数"/>
+        <Element Offset="1822" Vartype="Byte" Bytesize="1" OffsetHex="0000071E" DisplayMethod="无符号整数"/>
+        <Element Offset="1823" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000071F" DisplayMethod="无符号整数"/>
+        <Element Offset="1825" Vartype="Byte" Bytesize="1" RLECount="11" OffsetHex="00000721" DisplayMethod="无符号整数"/>
+        <Element Offset="1836" Vartype="Pointer" Bytesize="4" OffsetHex="0000072C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1840" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000730" DisplayMethod="无符号整数"/>
+        <Element Offset="1844" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000734" DisplayMethod="无符号整数"/>
+        <Element Offset="1852" Vartype="Pointer" Bytesize="4" OffsetHex="0000073C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1856" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000740" DisplayMethod="十六进制"/>
+        <Element Offset="1860" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000744" DisplayMethod="无符号整数"/>
+        <Element Offset="1868" Vartype="Pointer" Bytesize="4" OffsetHex="0000074C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1872" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000750" DisplayMethod="十六进制"/>
+        <Element Offset="1876" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000754" DisplayMethod="无符号整数"/>
+        <Element Offset="1884" Vartype="Pointer" Bytesize="4" OffsetHex="0000075C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1888" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000760" DisplayMethod="十六进制"/>
+        <Element Offset="1892" Vartype="Byte" Bytesize="1" OffsetHex="00000764" DisplayMethod="无符号整数"/>
+        <Element Offset="1893" Vartype="String" Bytesize="9" OffsetHex="00000765" DisplayMethod="无符号整数"/>
+        <Element Offset="1902" Vartype="Byte" Bytesize="1" OffsetHex="0000076E" DisplayMethod="无符号整数"/>
+        <Element Offset="1903" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000076F" DisplayMethod="无符号整数"/>
+        <Element Offset="1905" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000771" DisplayMethod="无符号整数"/>
+        <Element Offset="1907" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000773" DisplayMethod="无符号整数"/>
+        <Element Offset="1909" Vartype="String" Bytesize="7" OffsetHex="00000775" DisplayMethod="无符号整数"/>
+        <Element Offset="1916" Vartype="Pointer" Bytesize="4" OffsetHex="0000077C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1920" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000780" DisplayMethod="十六进制"/>
+        <Element Offset="1924" Vartype="String" Bytesize="9" OffsetHex="00000784" DisplayMethod="无符号整数"/>
+        <Element Offset="1933" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000078D" DisplayMethod="无符号整数"/>
+        <Element Offset="1935" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000078F" DisplayMethod="无符号整数"/>
+        <Element Offset="1937" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000791" DisplayMethod="无符号整数"/>
+        <Element Offset="1940" Vartype="String" Bytesize="9" OffsetHex="00000794" DisplayMethod="无符号整数"/>
+        <Element Offset="1949" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000079D" DisplayMethod="无符号整数"/>
+        <Element Offset="1952" Vartype="4 Bytes" Bytesize="4" OffsetHex="000007A0" DisplayMethod="十六进制"/>
+        <Element Offset="1956" Vartype="String" Bytesize="9" OffsetHex="000007A4" DisplayMethod="无符号整数"/>
+        <Element Offset="1965" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000007AD" DisplayMethod="无符号整数"/>
+        <Element Offset="1968" Vartype="4 Bytes" Bytesize="4" OffsetHex="000007B0" DisplayMethod="十六进制"/>
+        <Element Offset="1972" Vartype="String" Bytesize="8" OffsetHex="000007B4" DisplayMethod="无符号整数"/>
+        <Element Offset="1980" Vartype="Pointer" Bytesize="4" OffsetHex="000007BC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="1984" Vartype="4 Bytes" Bytesize="4" OffsetHex="000007C0" DisplayMethod="十六进制"/>
+        <Element Offset="1988" Vartype="String" Bytesize="4" OffsetHex="000007C4" DisplayMethod="无符号整数"/>
+        <Element Offset="1992" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000007C8" DisplayMethod="无符号整数"/>
+        <Element Offset="1996" Vartype="Pointer" Bytesize="4" OffsetHex="000007CC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2000" Vartype="4 Bytes" Bytesize="4" OffsetHex="000007D0" DisplayMethod="无符号整数"/>
+        <Element Offset="2004" Vartype="String" Bytesize="4" OffsetHex="000007D4" DisplayMethod="无符号整数"/>
+        <Element Offset="2008" Vartype="Byte" Bytesize="1" OffsetHex="000007D8" DisplayMethod="无符号整数"/>
+        <Element Offset="2009" Vartype="String" Bytesize="4" OffsetHex="000007D9" DisplayMethod="无符号整数"/>
+        <Element Offset="2013" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000007DD" DisplayMethod="无符号整数"/>
+        <Element Offset="2016" Vartype="4 Bytes" Bytesize="4" OffsetHex="000007E0" DisplayMethod="十六进制"/>
+        <Element Offset="2020" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000007E4" DisplayMethod="无符号整数"/>
+        <Element Offset="2028" Vartype="Pointer" Bytesize="4" OffsetHex="000007EC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2032" Vartype="4 Bytes" Bytesize="4" OffsetHex="000007F0" DisplayMethod="无符号整数"/>
+        <Element Offset="2036" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000007F4" DisplayMethod="无符号整数"/>
+        <Element Offset="2044" Vartype="Pointer" Bytesize="4" OffsetHex="000007FC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2048" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000800" DisplayMethod="无符号整数"/>
+        <Element Offset="2052" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000804" DisplayMethod="无符号整数"/>
+        <Element Offset="2055" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000807" DisplayMethod="无符号整数"/>
+        <Element Offset="2057" Vartype="String" Bytesize="4" OffsetHex="00000809" DisplayMethod="无符号整数"/>
+        <Element Offset="2061" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000080D" DisplayMethod="无符号整数"/>
+        <Element Offset="2064" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000810" DisplayMethod="无符号整数"/>
+        <Element Offset="2068" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000814" DisplayMethod="无符号整数"/>
+        <Element Offset="2076" Vartype="Pointer" Bytesize="4" OffsetHex="0000081C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2080" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000820" DisplayMethod="十六进制"/>
+        <Element Offset="2084" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000824" DisplayMethod="无符号整数"/>
+        <Element Offset="2092" Vartype="Pointer" Bytesize="4" OffsetHex="0000082C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2096" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000830" DisplayMethod="无符号整数"/>
+        <Element Offset="2100" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000834" DisplayMethod="无符号整数"/>
+        <Element Offset="2108" Vartype="Pointer" Bytesize="4" OffsetHex="0000083C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2112" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000840" DisplayMethod="十六进制"/>
+        <Element Offset="2116" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000844" DisplayMethod="无符号整数"/>
+        <Element Offset="2124" Vartype="Pointer" Bytesize="4" OffsetHex="0000084C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2128" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000850" DisplayMethod="十六进制"/>
+        <Element Offset="2132" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="00000854" DisplayMethod="无符号整数"/>
+        <Element Offset="2139" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000085B" DisplayMethod="无符号整数"/>
+        <Element Offset="2141" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000085D" DisplayMethod="无符号整数"/>
+        <Element Offset="2143" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000085F" DisplayMethod="无符号整数"/>
+        <Element Offset="2145" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000861" DisplayMethod="无符号整数"/>
+        <Element Offset="2149" Vartype="String" Bytesize="7" OffsetHex="00000865" DisplayMethod="无符号整数"/>
+        <Element Offset="2156" Vartype="Pointer" Bytesize="4" OffsetHex="0000086C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2160" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000870" DisplayMethod="十六进制"/>
+        <Element Offset="2164" Vartype="Byte" Bytesize="1" OffsetHex="00000874" DisplayMethod="无符号整数"/>
+        <Element Offset="2165" Vartype="String" Bytesize="7" OffsetHex="00000875" DisplayMethod="无符号整数"/>
+        <Element Offset="2172" Vartype="Pointer" Bytesize="4" OffsetHex="0000087C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2176" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000880" DisplayMethod="无符号整数"/>
+        <Element Offset="2180" Vartype="String" Bytesize="8" OffsetHex="00000884" DisplayMethod="无符号整数"/>
+        <Element Offset="2188" Vartype="Pointer" Bytesize="4" OffsetHex="0000088C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2192" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000890" DisplayMethod="十六进制"/>
+        <Element Offset="2196" Vartype="String" Bytesize="8" OffsetHex="00000894" DisplayMethod="无符号整数"/>
+        <Element Offset="2204" Vartype="Pointer" Bytesize="4" OffsetHex="0000089C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2208" Vartype="4 Bytes" Bytesize="4" OffsetHex="000008A0" DisplayMethod="十六进制"/>
+        <Element Offset="2212" Vartype="String" Bytesize="10" OffsetHex="000008A4" DisplayMethod="无符号整数"/>
+        <Element Offset="2222" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000008AE" DisplayMethod="无符号整数"/>
+        <Element Offset="2224" Vartype="4 Bytes" Bytesize="4" OffsetHex="000008B0" DisplayMethod="十六进制"/>
+        <Element Offset="2228" Vartype="String" Bytesize="8" OffsetHex="000008B4" DisplayMethod="无符号整数"/>
+        <Element Offset="2236" Vartype="Pointer" Bytesize="4" OffsetHex="000008BC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2240" Vartype="4 Bytes" Bytesize="4" OffsetHex="000008C0" DisplayMethod="十六进制"/>
+        <Element Offset="2244" Vartype="String" Bytesize="4" OffsetHex="000008C4" DisplayMethod="无符号整数"/>
+        <Element Offset="2248" Vartype="Byte" Bytesize="1" OffsetHex="000008C8" DisplayMethod="无符号整数"/>
+        <Element Offset="2249" Vartype="String" Bytesize="4" OffsetHex="000008C9" DisplayMethod="无符号整数"/>
+        <Element Offset="2253" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000008CD" DisplayMethod="无符号整数"/>
+        <Element Offset="2256" Vartype="4 Bytes" Bytesize="4" OffsetHex="000008D0" DisplayMethod="十六进制"/>
+        <Element Offset="2260" Vartype="String" Bytesize="4" OffsetHex="000008D4" DisplayMethod="无符号整数"/>
+        <Element Offset="2264" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000008D8" DisplayMethod="无符号整数"/>
+        <Element Offset="2268" Vartype="Pointer" Bytesize="4" OffsetHex="000008DC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2272" Vartype="4 Bytes" Bytesize="4" OffsetHex="000008E0" DisplayMethod="十六进制"/>
+        <Element Offset="2276" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="000008E4" DisplayMethod="无符号整数"/>
+        <Element Offset="2281" Vartype="String" Bytesize="6" OffsetHex="000008E9" DisplayMethod="无符号整数"/>
+        <Element Offset="2287" Vartype="2 Bytes" Bytesize="2" OffsetHex="000008EF" DisplayMethod="无符号整数"/>
+        <Element Offset="2289" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="000008F1" DisplayMethod="无符号整数"/>
+        <Element Offset="2297" Vartype="String" Bytesize="6" OffsetHex="000008F9" DisplayMethod="无符号整数"/>
+        <Element Offset="2303" Vartype="Byte" Bytesize="1" OffsetHex="000008FF" DisplayMethod="无符号整数"/>
+        <Element Offset="2304" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000900" DisplayMethod="十六进制"/>
+        <Element Offset="2308" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000904" DisplayMethod="无符号整数"/>
+        <Element Offset="2311" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000907" DisplayMethod="无符号整数"/>
+        <Element Offset="2313" Vartype="String" Bytesize="6" OffsetHex="00000909" DisplayMethod="无符号整数"/>
+        <Element Offset="2319" Vartype="Byte" Bytesize="1" OffsetHex="0000090F" DisplayMethod="无符号整数"/>
+        <Element Offset="2320" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000910" DisplayMethod="无符号整数"/>
+        <Element Offset="2324" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000914" DisplayMethod="无符号整数"/>
+        <Element Offset="2329" Vartype="String" Bytesize="4" OffsetHex="00000919" DisplayMethod="无符号整数"/>
+        <Element Offset="2333" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000091D" DisplayMethod="无符号整数"/>
+        <Element Offset="2336" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000920" DisplayMethod="十六进制"/>
+        <Element Offset="2340" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000924" DisplayMethod="无符号整数"/>
+        <Element Offset="2348" Vartype="Pointer" Bytesize="4" OffsetHex="0000092C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2352" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000930" DisplayMethod="无符号整数"/>
+        <Element Offset="2356" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="00000934" DisplayMethod="无符号整数"/>
+        <Element Offset="2363" Vartype="2 Bytes" Bytesize="2" OffsetHex="0000093B" DisplayMethod="无符号整数"/>
+        <Element Offset="2365" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000093D" DisplayMethod="无符号整数"/>
+        <Element Offset="2368" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000940" DisplayMethod="无符号整数"/>
+        <Element Offset="2372" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000944" DisplayMethod="无符号整数"/>
+        <Element Offset="2377" Vartype="String" Bytesize="4" OffsetHex="00000949" DisplayMethod="无符号整数"/>
+        <Element Offset="2381" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="0000094D" DisplayMethod="无符号整数"/>
+        <Element Offset="2384" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000950" DisplayMethod="无符号整数"/>
+        <Element Offset="2388" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000954" DisplayMethod="无符号整数"/>
+        <Element Offset="2396" Vartype="Pointer" Bytesize="4" OffsetHex="0000095C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2400" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000960" DisplayMethod="十六进制"/>
+        <Element Offset="2404" Vartype="Byte" Bytesize="1" OffsetHex="00000964" DisplayMethod="无符号整数"/>
+        <Element Offset="2405" Vartype="String" Bytesize="7" OffsetHex="00000965" DisplayMethod="无符号整数"/>
+        <Element Offset="2412" Vartype="Pointer" Bytesize="4" OffsetHex="0000096C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2416" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000970" DisplayMethod="十六进制"/>
+        <Element Offset="2420" Vartype="Byte" Bytesize="1" OffsetHex="00000974" DisplayMethod="无符号整数"/>
+        <Element Offset="2421" Vartype="String" Bytesize="7" OffsetHex="00000975" DisplayMethod="无符号整数"/>
+        <Element Offset="2428" Vartype="Pointer" Bytesize="4" OffsetHex="0000097C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2432" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000980" DisplayMethod="十六进制"/>
+        <Element Offset="2436" Vartype="String" Bytesize="10" OffsetHex="00000984" DisplayMethod="无符号整数"/>
+        <Element Offset="2446" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000098E" DisplayMethod="无符号整数"/>
+        <Element Offset="2448" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000990" DisplayMethod="十六进制"/>
+        <Element Offset="2452" Vartype="String" Bytesize="8" OffsetHex="00000994" DisplayMethod="无符号整数"/>
+        <Element Offset="2460" Vartype="Pointer" Bytesize="4" OffsetHex="0000099C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2464" Vartype="4 Bytes" Bytesize="4" OffsetHex="000009A0" DisplayMethod="十六进制"/>
+        <Element Offset="2468" Vartype="String" Bytesize="8" OffsetHex="000009A4" DisplayMethod="无符号整数"/>
+        <Element Offset="2476" Vartype="Pointer" Bytesize="4" OffsetHex="000009AC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2480" Vartype="4 Bytes" Bytesize="4" OffsetHex="000009B0" DisplayMethod="无符号整数"/>
+        <Element Offset="2484" Vartype="String" Bytesize="9" OffsetHex="000009B4" DisplayMethod="无符号整数"/>
+        <Element Offset="2493" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000009BD" DisplayMethod="无符号整数"/>
+        <Element Offset="2496" Vartype="4 Bytes" Bytesize="4" OffsetHex="000009C0" DisplayMethod="无符号整数"/>
+        <Element Offset="2500" Vartype="String" Bytesize="4" OffsetHex="000009C4" DisplayMethod="无符号整数"/>
+        <Element Offset="2504" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000009C8" DisplayMethod="无符号整数"/>
+        <Element Offset="2508" Vartype="Pointer" Bytesize="4" OffsetHex="000009CC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2512" Vartype="4 Bytes" Bytesize="4" OffsetHex="000009D0" DisplayMethod="十六进制"/>
+        <Element Offset="2516" Vartype="String" Bytesize="4" OffsetHex="000009D4" DisplayMethod="无符号整数"/>
+        <Element Offset="2520" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000009D8" DisplayMethod="无符号整数"/>
+        <Element Offset="2524" Vartype="Pointer" Bytesize="4" OffsetHex="000009DC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2528" Vartype="4 Bytes" Bytesize="4" OffsetHex="000009E0" DisplayMethod="无符号整数"/>
+        <Element Offset="2532" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="000009E4" DisplayMethod="无符号整数"/>
+        <Element Offset="2537" Vartype="String" Bytesize="4" OffsetHex="000009E9" DisplayMethod="无符号整数"/>
+        <Element Offset="2541" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000009ED" DisplayMethod="无符号整数"/>
+        <Element Offset="2544" Vartype="4 Bytes" Bytesize="4" OffsetHex="000009F0" DisplayMethod="无符号整数"/>
+        <Element Offset="2548" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="000009F4" DisplayMethod="无符号整数"/>
+        <Element Offset="2555" Vartype="2 Bytes" Bytesize="2" OffsetHex="000009FB" DisplayMethod="无符号整数"/>
+        <Element Offset="2557" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="000009FD" DisplayMethod="无符号整数"/>
+        <Element Offset="2560" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A00" DisplayMethod="十六进制"/>
+        <Element Offset="2564" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000A04" DisplayMethod="无符号整数"/>
+        <Element Offset="2567" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000A07" DisplayMethod="无符号整数"/>
+        <Element Offset="2569" Vartype="String" Bytesize="5" OffsetHex="00000A09" DisplayMethod="无符号整数"/>
+        <Element Offset="2574" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000A0E" DisplayMethod="无符号整数"/>
+        <Element Offset="2576" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A10" DisplayMethod="无符号整数"/>
+        <Element Offset="2580" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000A14" DisplayMethod="无符号整数"/>
+        <Element Offset="2585" Vartype="String" Bytesize="4" OffsetHex="00000A19" DisplayMethod="无符号整数"/>
+        <Element Offset="2589" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000A1D" DisplayMethod="无符号整数"/>
+        <Element Offset="2592" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A20" DisplayMethod="十六进制"/>
+        <Element Offset="2596" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000A24" DisplayMethod="无符号整数"/>
+        <Element Offset="2604" Vartype="Pointer" Bytesize="4" OffsetHex="00000A2C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2608" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A30" DisplayMethod="十六进制"/>
+        <Element Offset="2612" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000A34" DisplayMethod="无符号整数"/>
+        <Element Offset="2620" Vartype="Pointer" Bytesize="4" OffsetHex="00000A3C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2624" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A40" DisplayMethod="无符号整数"/>
+        <Element Offset="2628" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000A44" DisplayMethod="无符号整数"/>
+        <Element Offset="2633" Vartype="String" Bytesize="4" OffsetHex="00000A49" DisplayMethod="无符号整数"/>
+        <Element Offset="2637" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000A4D" DisplayMethod="无符号整数"/>
+        <Element Offset="2640" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A50" DisplayMethod="十六进制"/>
+        <Element Offset="2644" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000A54" DisplayMethod="无符号整数"/>
+        <Element Offset="2652" Vartype="Pointer" Bytesize="4" OffsetHex="00000A5C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2656" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A60" DisplayMethod="十六进制"/>
+        <Element Offset="2660" Vartype="Byte" Bytesize="1" OffsetHex="00000A64" DisplayMethod="无符号整数"/>
+        <Element Offset="2661" Vartype="String" Bytesize="9" OffsetHex="00000A65" DisplayMethod="无符号整数"/>
+        <Element Offset="2670" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000A6E" DisplayMethod="无符号整数"/>
+        <Element Offset="2672" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A70" DisplayMethod="无符号整数"/>
+        <Element Offset="2676" Vartype="Byte" Bytesize="1" OffsetHex="00000A74" DisplayMethod="无符号整数"/>
+        <Element Offset="2677" Vartype="String" Bytesize="9" OffsetHex="00000A75" DisplayMethod="无符号整数"/>
+        <Element Offset="2686" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000A7E" DisplayMethod="无符号整数"/>
+        <Element Offset="2688" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A80" DisplayMethod="十六进制"/>
+        <Element Offset="2692" Vartype="String" Bytesize="8" OffsetHex="00000A84" DisplayMethod="无符号整数"/>
+        <Element Offset="2700" Vartype="Pointer" Bytesize="4" OffsetHex="00000A8C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2704" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A90" DisplayMethod="十六进制"/>
+        <Element Offset="2708" Vartype="String" Bytesize="10" OffsetHex="00000A94" DisplayMethod="无符号整数"/>
+        <Element Offset="2718" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000A9E" DisplayMethod="无符号整数"/>
+        <Element Offset="2720" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AA0" DisplayMethod="十六进制"/>
+        <Element Offset="2724" Vartype="String" Bytesize="8" OffsetHex="00000AA4" DisplayMethod="无符号整数"/>
+        <Element Offset="2732" Vartype="Pointer" Bytesize="4" OffsetHex="00000AAC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2736" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AB0" DisplayMethod="无符号整数"/>
+        <Element Offset="2740" Vartype="String" Bytesize="10" OffsetHex="00000AB4" DisplayMethod="无符号整数"/>
+        <Element Offset="2750" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000ABE" DisplayMethod="无符号整数"/>
+        <Element Offset="2752" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AC0" DisplayMethod="十六进制"/>
+        <Element Offset="2756" Vartype="String" Bytesize="4" OffsetHex="00000AC4" DisplayMethod="无符号整数"/>
+        <Element Offset="2760" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000AC8" DisplayMethod="无符号整数"/>
+        <Element Offset="2764" Vartype="Pointer" Bytesize="4" OffsetHex="00000ACC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2768" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AD0" DisplayMethod="无符号整数"/>
+        <Element Offset="2772" Vartype="String" Bytesize="4" OffsetHex="00000AD4" DisplayMethod="无符号整数"/>
+        <Element Offset="2776" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000AD8" DisplayMethod="无符号整数"/>
+        <Element Offset="2779" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000ADB" DisplayMethod="无符号整数"/>
+        <Element Offset="2781" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000ADD" DisplayMethod="无符号整数"/>
+        <Element Offset="2784" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AE0" DisplayMethod="无符号整数"/>
+        <Element Offset="2788" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000AE4" DisplayMethod="无符号整数"/>
+        <Element Offset="2796" Vartype="Pointer" Bytesize="4" OffsetHex="00000AEC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2800" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AF0" DisplayMethod="十六进制"/>
+        <Element Offset="2804" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000AF4" DisplayMethod="无符号整数"/>
+        <Element Offset="2812" Vartype="Pointer" Bytesize="4" OffsetHex="00000AFC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2816" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B00" DisplayMethod="十六进制"/>
+        <Element Offset="2820" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000B04" DisplayMethod="无符号整数"/>
+        <Element Offset="2823" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000B07" DisplayMethod="无符号整数"/>
+        <Element Offset="2825" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000B09" DisplayMethod="无符号整数"/>
+        <Element Offset="2828" Vartype="Pointer" Bytesize="4" OffsetHex="00000B0C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="2832" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B10" DisplayMethod="十六进制"/>
+        <Element Offset="2836" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="00000B14" DisplayMethod="无符号整数"/>
+        <Element Offset="2843" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000B1B" DisplayMethod="无符号整数"/>
+        <Element Offset="2845" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000B1D" DisplayMethod="无符号整数"/>
+        <Element Offset="2848" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B20" DisplayMethod="无符号整数"/>
+        <Element Offset="2852" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000B24" DisplayMethod="无符号整数"/>
+        <Element Offset="2860" Vartype="Pointer" Bytesize="4" OffsetHex="00000B2C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2864" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B30" DisplayMethod="十六进制"/>
+        <Element Offset="2868" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000B34" DisplayMethod="无符号整数"/>
+        <Element Offset="2873" Vartype="String" Bytesize="5" OffsetHex="00000B39" DisplayMethod="无符号整数"/>
+        <Element Offset="2878" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000B3E" DisplayMethod="无符号整数"/>
+        <Element Offset="2880" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B40" DisplayMethod="十六进制"/>
+        <Element Offset="2884" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000B44" DisplayMethod="无符号整数"/>
+        <Element Offset="2892" Vartype="Pointer" Bytesize="4" OffsetHex="00000B4C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2896" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B50" DisplayMethod="十六进制"/>
+        <Element Offset="2900" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000B54" DisplayMethod="无符号整数"/>
+        <Element Offset="2908" Vartype="Pointer" Bytesize="4" OffsetHex="00000B5C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2912" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B60" DisplayMethod="十六进制"/>
+        <Element Offset="2916" Vartype="Byte" Bytesize="1" OffsetHex="00000B64" DisplayMethod="无符号整数"/>
+        <Element Offset="2917" Vartype="String" Bytesize="8" OffsetHex="00000B65" DisplayMethod="无符号整数"/>
+        <Element Offset="2925" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000B6D" DisplayMethod="无符号整数"/>
+        <Element Offset="2928" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B70" DisplayMethod="十六进制"/>
+        <Element Offset="2932" Vartype="Byte" Bytesize="1" OffsetHex="00000B74" DisplayMethod="无符号整数"/>
+        <Element Offset="2933" Vartype="String" Bytesize="7" OffsetHex="00000B75" DisplayMethod="无符号整数"/>
+        <Element Offset="2940" Vartype="Pointer" Bytesize="4" OffsetHex="00000B7C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2944" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B80" DisplayMethod="无符号整数"/>
+        <Element Offset="2948" Vartype="String" Bytesize="9" OffsetHex="00000B84" DisplayMethod="无符号整数"/>
+        <Element Offset="2957" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000B8D" DisplayMethod="无符号整数"/>
+        <Element Offset="2960" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B90" DisplayMethod="无符号整数"/>
+        <Element Offset="2964" Vartype="String" Bytesize="9" OffsetHex="00000B94" DisplayMethod="无符号整数"/>
+        <Element Offset="2973" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000B9D" DisplayMethod="无符号整数"/>
+        <Element Offset="2976" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000BA0" DisplayMethod="十六进制"/>
+        <Element Offset="2980" Vartype="String" Bytesize="8" OffsetHex="00000BA4" DisplayMethod="无符号整数"/>
+        <Element Offset="2988" Vartype="Pointer" Bytesize="4" OffsetHex="00000BAC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="2992" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000BB0" DisplayMethod="十六进制"/>
+        <Element Offset="2996" Vartype="String" Bytesize="8" OffsetHex="00000BB4" DisplayMethod="无符号整数"/>
+        <Element Offset="3004" Vartype="Pointer" Bytesize="4" OffsetHex="00000BBC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3008" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000BC0" DisplayMethod="十六进制"/>
+        <Element Offset="3012" Vartype="String" Bytesize="4" OffsetHex="00000BC4" DisplayMethod="无符号整数"/>
+        <Element Offset="3016" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000BC8" DisplayMethod="无符号整数"/>
+        <Element Offset="3020" Vartype="Pointer" Bytesize="4" OffsetHex="00000BCC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3024" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000BD0" DisplayMethod="十六进制"/>
+        <Element Offset="3028" Vartype="String" Bytesize="4" OffsetHex="00000BD4" DisplayMethod="无符号整数"/>
+        <Element Offset="3032" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000BD8" DisplayMethod="无符号整数"/>
+        <Element Offset="3035" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000BDB" DisplayMethod="无符号整数"/>
+        <Element Offset="3037" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000BDD" DisplayMethod="无符号整数"/>
+        <Element Offset="3040" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000BE0" DisplayMethod="十六进制"/>
+        <Element Offset="3044" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000BE4" DisplayMethod="无符号整数"/>
+        <Element Offset="3049" Vartype="String" Bytesize="4" OffsetHex="00000BE9" DisplayMethod="无符号整数"/>
+        <Element Offset="3053" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000BED" DisplayMethod="无符号整数"/>
+        <Element Offset="3056" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000BF0" DisplayMethod="十六进制"/>
+        <Element Offset="3060" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000BF4" DisplayMethod="无符号整数"/>
+        <Element Offset="3068" Vartype="Pointer" Bytesize="4" OffsetHex="00000BFC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3072" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C00" DisplayMethod="十六进制"/>
+        <Element Offset="3076" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000C04" DisplayMethod="无符号整数"/>
+        <Element Offset="3079" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000C07" DisplayMethod="无符号整数"/>
+        <Element Offset="3081" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000C09" DisplayMethod="无符号整数"/>
+        <Element Offset="3084" Vartype="Pointer" Bytesize="4" OffsetHex="00000C0C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3088" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C10" DisplayMethod="十六进制"/>
+        <Element Offset="3092" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="00000C14" DisplayMethod="无符号整数"/>
+        <Element Offset="3099" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000C1B" DisplayMethod="无符号整数"/>
+        <Element Offset="3101" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000C1D" DisplayMethod="无符号整数"/>
+        <Element Offset="3103" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000C1F" DisplayMethod="无符号整数"/>
+        <Element Offset="3105" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000C21" DisplayMethod="无符号整数"/>
+        <Element Offset="3113" Vartype="String" Bytesize="4" OffsetHex="00000C29" DisplayMethod="无符号整数"/>
+        <Element Offset="3117" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000C2D" DisplayMethod="无符号整数"/>
+        <Element Offset="3120" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C30" DisplayMethod="十六进制"/>
+        <Element Offset="3124" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000C34" DisplayMethod="无符号整数"/>
+        <Element Offset="3132" Vartype="Pointer" Bytesize="4" OffsetHex="00000C3C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3136" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C40" DisplayMethod="十六进制"/>
+        <Element Offset="3140" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000C44" DisplayMethod="无符号整数"/>
+        <Element Offset="3145" Vartype="String" Bytesize="4" OffsetHex="00000C49" DisplayMethod="无符号整数"/>
+        <Element Offset="3149" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000C4D" DisplayMethod="无符号整数"/>
+        <Element Offset="3152" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C50" DisplayMethod="十六进制"/>
+        <Element Offset="3156" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000C54" DisplayMethod="无符号整数"/>
+        <Element Offset="3161" Vartype="String" Bytesize="4" OffsetHex="00000C59" DisplayMethod="无符号整数"/>
+        <Element Offset="3165" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000C5D" DisplayMethod="无符号整数"/>
+        <Element Offset="3168" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C60" DisplayMethod="十六进制"/>
+        <Element Offset="3172" Vartype="Byte" Bytesize="1" OffsetHex="00000C64" DisplayMethod="无符号整数"/>
+        <Element Offset="3173" Vartype="String" Bytesize="9" OffsetHex="00000C65" DisplayMethod="无符号整数"/>
+        <Element Offset="3182" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000C6E" DisplayMethod="无符号整数"/>
+        <Element Offset="3184" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C70" DisplayMethod="无符号整数"/>
+        <Element Offset="3188" Vartype="Byte" Bytesize="1" OffsetHex="00000C74" DisplayMethod="无符号整数"/>
+        <Element Offset="3189" Vartype="String" Bytesize="7" OffsetHex="00000C75" DisplayMethod="无符号整数"/>
+        <Element Offset="3196" Vartype="Pointer" Bytesize="4" OffsetHex="00000C7C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3200" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C80" DisplayMethod="十六进制"/>
+        <Element Offset="3204" Vartype="String" Bytesize="8" OffsetHex="00000C84" DisplayMethod="无符号整数"/>
+        <Element Offset="3212" Vartype="Pointer" Bytesize="4" OffsetHex="00000C8C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3216" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000C90" DisplayMethod="十六进制"/>
+        <Element Offset="3220" Vartype="String" Bytesize="8" OffsetHex="00000C94" DisplayMethod="无符号整数"/>
+        <Element Offset="3228" Vartype="Pointer" Bytesize="4" OffsetHex="00000C9C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3232" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000CA0" DisplayMethod="十六进制"/>
+        <Element Offset="3236" Vartype="String" Bytesize="8" OffsetHex="00000CA4" DisplayMethod="无符号整数"/>
+        <Element Offset="3244" Vartype="Pointer" Bytesize="4" OffsetHex="00000CAC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3248" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000CB0" DisplayMethod="无符号整数"/>
+        <Element Offset="3252" Vartype="String" Bytesize="10" OffsetHex="00000CB4" DisplayMethod="无符号整数"/>
+        <Element Offset="3262" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000CBE" DisplayMethod="无符号整数"/>
+        <Element Offset="3264" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000CC0" DisplayMethod="无符号整数"/>
+        <Element Offset="3268" Vartype="String" Bytesize="4" OffsetHex="00000CC4" DisplayMethod="无符号整数"/>
+        <Element Offset="3272" Vartype="Byte" Bytesize="1" OffsetHex="00000CC8" DisplayMethod="无符号整数"/>
+        <Element Offset="3273" Vartype="String" Bytesize="4" OffsetHex="00000CC9" DisplayMethod="无符号整数"/>
+        <Element Offset="3277" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000CCD" DisplayMethod="无符号整数"/>
+        <Element Offset="3280" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000CD0" DisplayMethod="十六进制"/>
+        <Element Offset="3284" Vartype="String" Bytesize="4" OffsetHex="00000CD4" DisplayMethod="无符号整数"/>
+        <Element Offset="3288" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000CD8" DisplayMethod="无符号整数"/>
+        <Element Offset="3291" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000CDB" DisplayMethod="无符号整数"/>
+        <Element Offset="3293" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000CDD" DisplayMethod="无符号整数"/>
+        <Element Offset="3296" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000CE0" DisplayMethod="十六进制"/>
+        <Element Offset="3300" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000CE4" DisplayMethod="无符号整数"/>
+        <Element Offset="3308" Vartype="Pointer" Bytesize="4" OffsetHex="00000CEC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3312" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000CF0" DisplayMethod="无符号整数"/>
+        <Element Offset="3316" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000CF4" DisplayMethod="无符号整数"/>
+        <Element Offset="3321" Vartype="String" Bytesize="4" OffsetHex="00000CF9" DisplayMethod="无符号整数"/>
+        <Element Offset="3325" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000CFD" DisplayMethod="无符号整数"/>
+        <Element Offset="3328" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D00" DisplayMethod="无符号整数"/>
+        <Element Offset="3332" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000D04" DisplayMethod="无符号整数"/>
+        <Element Offset="3335" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000D07" DisplayMethod="无符号整数"/>
+        <Element Offset="3337" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000D09" DisplayMethod="无符号整数"/>
+        <Element Offset="3340" Vartype="Pointer" Bytesize="4" OffsetHex="00000D0C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3344" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D10" DisplayMethod="十六进制"/>
+        <Element Offset="3348" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000D14" DisplayMethod="无符号整数"/>
+        <Element Offset="3356" Vartype="Pointer" Bytesize="4" OffsetHex="00000D1C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3360" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D20" DisplayMethod="十六进制"/>
+        <Element Offset="3364" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000D24" DisplayMethod="无符号整数"/>
+        <Element Offset="3369" Vartype="String" Bytesize="5" OffsetHex="00000D29" DisplayMethod="无符号整数"/>
+        <Element Offset="3374" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000D2E" DisplayMethod="无符号整数"/>
+        <Element Offset="3376" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D30" DisplayMethod="十六进制"/>
+        <Element Offset="3380" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000D34" DisplayMethod="无符号整数"/>
+        <Element Offset="3388" Vartype="Pointer" Bytesize="4" OffsetHex="00000D3C" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3392" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D40" DisplayMethod="十六进制"/>
+        <Element Offset="3396" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000D44" DisplayMethod="无符号整数"/>
+        <Element Offset="3401" Vartype="String" Bytesize="4" OffsetHex="00000D49" DisplayMethod="无符号整数"/>
+        <Element Offset="3405" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000D4D" DisplayMethod="无符号整数"/>
+        <Element Offset="3408" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D50" DisplayMethod="无符号整数"/>
+        <Element Offset="3412" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000D54" DisplayMethod="无符号整数"/>
+        <Element Offset="3420" Vartype="Pointer" Bytesize="4" OffsetHex="00000D5C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3424" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D60" DisplayMethod="十六进制"/>
+        <Element Offset="3428" Vartype="Byte" Bytesize="1" OffsetHex="00000D64" DisplayMethod="无符号整数"/>
+        <Element Offset="3429" Vartype="String" Bytesize="9" OffsetHex="00000D65" DisplayMethod="无符号整数"/>
+        <Element Offset="3438" Vartype="Byte" Bytesize="1" OffsetHex="00000D6E" DisplayMethod="无符号整数"/>
+        <Element Offset="3439" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000D6F" DisplayMethod="无符号整数"/>
+        <Element Offset="3441" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000D71" DisplayMethod="无符号整数"/>
+        <Element Offset="3443" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000D73" DisplayMethod="无符号整数"/>
+        <Element Offset="3445" Vartype="String" Bytesize="7" OffsetHex="00000D75" DisplayMethod="无符号整数"/>
+        <Element Offset="3452" Vartype="Pointer" Bytesize="4" OffsetHex="00000D7C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3456" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D80" DisplayMethod="无符号整数"/>
+        <Element Offset="3460" Vartype="String" Bytesize="8" OffsetHex="00000D84" DisplayMethod="无符号整数"/>
+        <Element Offset="3468" Vartype="Pointer" Bytesize="4" OffsetHex="00000D8C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3472" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000D90" DisplayMethod="十六进制"/>
+        <Element Offset="3476" Vartype="String" Bytesize="9" OffsetHex="00000D94" DisplayMethod="无符号整数"/>
+        <Element Offset="3485" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000D9D" DisplayMethod="无符号整数"/>
+        <Element Offset="3488" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000DA0" DisplayMethod="十六进制"/>
+        <Element Offset="3492" Vartype="String" Bytesize="8" OffsetHex="00000DA4" DisplayMethod="无符号整数"/>
+        <Element Offset="3500" Vartype="Pointer" Bytesize="4" OffsetHex="00000DAC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3504" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000DB0" DisplayMethod="无符号整数"/>
+        <Element Offset="3508" Vartype="String" Bytesize="8" OffsetHex="00000DB4" DisplayMethod="无符号整数"/>
+        <Element Offset="3516" Vartype="Pointer" Bytesize="4" OffsetHex="00000DBC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3520" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000DC0" DisplayMethod="十六进制"/>
+        <Element Offset="3524" Vartype="String" Bytesize="4" OffsetHex="00000DC4" DisplayMethod="无符号整数"/>
+        <Element Offset="3528" Vartype="Byte" Bytesize="1" OffsetHex="00000DC8" DisplayMethod="无符号整数"/>
+        <Element Offset="3529" Vartype="String" Bytesize="4" OffsetHex="00000DC9" DisplayMethod="无符号整数"/>
+        <Element Offset="3533" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000DCD" DisplayMethod="无符号整数"/>
+        <Element Offset="3535" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000DCF" DisplayMethod="无符号整数"/>
+        <Element Offset="3537" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000DD1" DisplayMethod="无符号整数"/>
+        <Element Offset="3540" Vartype="String" Bytesize="4" OffsetHex="00000DD4" DisplayMethod="无符号整数"/>
+        <Element Offset="3544" Vartype="Byte" Bytesize="1" OffsetHex="00000DD8" DisplayMethod="无符号整数"/>
+        <Element Offset="3545" Vartype="String" Bytesize="4" OffsetHex="00000DD9" DisplayMethod="无符号整数"/>
+        <Element Offset="3549" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000DDD" DisplayMethod="无符号整数"/>
+        <Element Offset="3552" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000DE0" DisplayMethod="无符号整数"/>
+        <Element Offset="3556" Vartype="Byte" Bytesize="1" RLECount="7" OffsetHex="00000DE4" DisplayMethod="无符号整数"/>
+        <Element Offset="3563" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000DEB" DisplayMethod="无符号整数"/>
+        <Element Offset="3565" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000DED" DisplayMethod="无符号整数"/>
+        <Element Offset="3568" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000DF0" DisplayMethod="无符号整数"/>
+        <Element Offset="3572" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000DF4" DisplayMethod="无符号整数"/>
+        <Element Offset="3580" Vartype="Pointer" Bytesize="4" OffsetHex="00000DFC" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3584" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E00" DisplayMethod="十六进制"/>
+        <Element Offset="3588" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000E04" DisplayMethod="无符号整数"/>
+        <Element Offset="3591" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000E07" DisplayMethod="无符号整数"/>
+        <Element Offset="3593" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000E09" DisplayMethod="无符号整数"/>
+        <Element Offset="3596" Vartype="Pointer" Bytesize="4" OffsetHex="00000E0C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3600" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E10" DisplayMethod="十六进制"/>
+        <Element Offset="3604" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000E14" DisplayMethod="无符号整数"/>
+        <Element Offset="3612" Vartype="Pointer" Bytesize="4" OffsetHex="00000E1C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3616" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E20" DisplayMethod="无符号整数"/>
+        <Element Offset="3620" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000E24" DisplayMethod="无符号整数"/>
+        <Element Offset="3628" Vartype="Pointer" Bytesize="4" OffsetHex="00000E2C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3632" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E30" DisplayMethod="无符号整数"/>
+        <Element Offset="3636" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000E34" DisplayMethod="无符号整数"/>
+        <Element Offset="3644" Vartype="Pointer" Bytesize="4" OffsetHex="00000E3C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3648" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E40" DisplayMethod="十六进制"/>
+        <Element Offset="3652" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000E44" DisplayMethod="无符号整数"/>
+        <Element Offset="3660" Vartype="Pointer" Bytesize="4" OffsetHex="00000E4C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3664" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E50" DisplayMethod="十六进制"/>
+        <Element Offset="3668" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000E54" DisplayMethod="无符号整数"/>
+        <Element Offset="3676" Vartype="Pointer" Bytesize="4" OffsetHex="00000E5C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3680" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E60" DisplayMethod="十六进制"/>
+        <Element Offset="3684" Vartype="Byte" Bytesize="1" OffsetHex="00000E64" DisplayMethod="无符号整数"/>
+        <Element Offset="3685" Vartype="String" Bytesize="7" OffsetHex="00000E65" DisplayMethod="无符号整数"/>
+        <Element Offset="3692" Vartype="Pointer" Bytesize="4" OffsetHex="00000E6C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3696" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E70" DisplayMethod="无符号整数"/>
+        <Element Offset="3700" Vartype="Byte" Bytesize="1" OffsetHex="00000E74" DisplayMethod="无符号整数"/>
+        <Element Offset="3701" Vartype="String" Bytesize="7" OffsetHex="00000E75" DisplayMethod="无符号整数"/>
+        <Element Offset="3708" Vartype="Pointer" Bytesize="4" OffsetHex="00000E7C" Description="Pointer to instance of CSprite" DisplayMethod="无符号整数"/>
+        <Element Offset="3712" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E80" DisplayMethod="十六进制"/>
+        <Element Offset="3716" Vartype="String" Bytesize="9" OffsetHex="00000E84" DisplayMethod="无符号整数"/>
+        <Element Offset="3725" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000E8D" DisplayMethod="无符号整数"/>
+        <Element Offset="3728" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000E90" DisplayMethod="十六进制"/>
+        <Element Offset="3732" Vartype="String" Bytesize="9" OffsetHex="00000E94" DisplayMethod="无符号整数"/>
+        <Element Offset="3741" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000E9D" DisplayMethod="无符号整数"/>
+        <Element Offset="3743" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000E9F" DisplayMethod="无符号整数"/>
+        <Element Offset="3745" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000EA1" DisplayMethod="无符号整数"/>
+        <Element Offset="3748" Vartype="String" Bytesize="9" OffsetHex="00000EA4" DisplayMethod="无符号整数"/>
+        <Element Offset="3757" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000EAD" DisplayMethod="无符号整数"/>
+        <Element Offset="3760" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000EB0" DisplayMethod="无符号整数"/>
+        <Element Offset="3764" Vartype="String" Bytesize="9" OffsetHex="00000EB4" DisplayMethod="无符号整数"/>
+        <Element Offset="3773" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000EBD" DisplayMethod="无符号整数"/>
+        <Element Offset="3776" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000EC0" DisplayMethod="十六进制"/>
+        <Element Offset="3780" Vartype="String" Bytesize="4" OffsetHex="00000EC4" DisplayMethod="无符号整数"/>
+        <Element Offset="3784" Vartype="Byte" Bytesize="1" OffsetHex="00000EC8" DisplayMethod="无符号整数"/>
+        <Element Offset="3785" Vartype="String" Bytesize="4" OffsetHex="00000EC9" DisplayMethod="无符号整数"/>
+        <Element Offset="3789" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000ECD" DisplayMethod="无符号整数"/>
+        <Element Offset="3792" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000ED0" DisplayMethod="无符号整数"/>
+        <Element Offset="3796" Vartype="String" Bytesize="4" OffsetHex="00000ED4" DisplayMethod="无符号整数"/>
+        <Element Offset="3800" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000ED8" DisplayMethod="无符号整数"/>
+        <Element Offset="3804" Vartype="Pointer" Bytesize="4" OffsetHex="00000EDC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3808" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000EE0" DisplayMethod="十六进制"/>
+        <Element Offset="3812" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000EE4" DisplayMethod="无符号整数"/>
+        <Element Offset="3820" Vartype="Pointer" Bytesize="4" OffsetHex="00000EEC" Description="Pointer to instance of CRopeKeyframe" DisplayMethod="无符号整数"/>
+        <Element Offset="3824" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000EF0" DisplayMethod="十六进制"/>
+        <Element Offset="3828" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000EF4" DisplayMethod="无符号整数"/>
+        <Element Offset="3833" Vartype="String" Bytesize="4" OffsetHex="00000EF9" DisplayMethod="无符号整数"/>
+        <Element Offset="3837" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000EFD" DisplayMethod="无符号整数"/>
+        <Element Offset="3840" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F00" DisplayMethod="无符号整数"/>
+        <Element Offset="3844" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000F04" DisplayMethod="无符号整数"/>
+        <Element Offset="3847" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000F07" DisplayMethod="无符号整数"/>
+        <Element Offset="3849" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000F09" DisplayMethod="无符号整数"/>
+        <Element Offset="3852" Vartype="Pointer" Bytesize="4" OffsetHex="00000F0C" Description="Pointer to instance of CPhysicsPropMultiplayer" DisplayMethod="无符号整数"/>
+        <Element Offset="3856" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F10" DisplayMethod="无符号整数"/>
+        <Element Offset="3860" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000F14" DisplayMethod="无符号整数"/>
+        <Element Offset="3865" Vartype="String" Bytesize="4" OffsetHex="00000F19" DisplayMethod="无符号整数"/>
+        <Element Offset="3869" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000F1D" DisplayMethod="无符号整数"/>
+        <Element Offset="3872" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F20" DisplayMethod="十六进制"/>
+        <Element Offset="3876" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000F24" DisplayMethod="无符号整数"/>
+        <Element Offset="3884" Vartype="Pointer" Bytesize="4" OffsetHex="00000F2C" Description="Pointer to instance of CDynamicProp" DisplayMethod="无符号整数"/>
+        <Element Offset="3888" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F30" DisplayMethod="十六进制"/>
+        <Element Offset="3892" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000F34" DisplayMethod="无符号整数"/>
+        <Element Offset="3897" Vartype="String" Bytesize="5" OffsetHex="00000F39" DisplayMethod="无符号整数"/>
+        <Element Offset="3902" Vartype="Byte" Bytesize="1" OffsetHex="00000F3E" DisplayMethod="无符号整数"/>
+        <Element Offset="3903" Vartype="2 Bytes" Bytesize="2" OffsetHex="00000F3F" DisplayMethod="无符号整数"/>
+        <Element Offset="3905" Vartype="Byte" Bytesize="1" RLECount="11" OffsetHex="00000F41" DisplayMethod="无符号整数"/>
+        <Element Offset="3916" Vartype="Pointer" Bytesize="4" OffsetHex="00000F4C" Description="Pointer to instance of CBreakableSurface" DisplayMethod="无符号整数"/>
+        <Element Offset="3920" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F50" DisplayMethod="无符号整数"/>
+        <Element Offset="3924" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000F54" DisplayMethod="无符号整数"/>
+        <Element Offset="3932" Vartype="Pointer" Bytesize="4" OffsetHex="00000F5C" Description="Pointer to instance of CBreakableSurface" DisplayMethod="无符号整数"/>
+        <Element Offset="3936" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F60" DisplayMethod="十六进制"/>
+        <Element Offset="3940" Vartype="Byte" Bytesize="1" OffsetHex="00000F64" DisplayMethod="无符号整数"/>
+        <Element Offset="3941" Vartype="String" Bytesize="8" OffsetHex="00000F65" DisplayMethod="无符号整数"/>
+        <Element Offset="3949" Vartype="Byte" Bytesize="1" RLECount="3" OffsetHex="00000F6D" DisplayMethod="无符号整数"/>
+        <Element Offset="3952" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F70" DisplayMethod="十六进制"/>
+        <Element Offset="3956" Vartype="Byte" Bytesize="1" OffsetHex="00000F74" DisplayMethod="无符号整数"/>
+        <Element Offset="3957" Vartype="String" Bytesize="7" OffsetHex="00000F75" DisplayMethod="无符号整数"/>
+        <Element Offset="3964" Vartype="Pointer" Bytesize="4" OffsetHex="00000F7C" Description="Pointer to instance of CBreakableSurface" DisplayMethod="无符号整数"/>
+        <Element Offset="3968" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F80" DisplayMethod="十六进制"/>
+        <Element Offset="3972" Vartype="String" Bytesize="8" OffsetHex="00000F84" DisplayMethod="无符号整数"/>
+        <Element Offset="3980" Vartype="Pointer" Bytesize="4" OffsetHex="00000F8C" Description="Pointer to instance of CBreakableSurface" DisplayMethod="无符号整数"/>
+        <Element Offset="3984" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000F90" DisplayMethod="无符号整数"/>
+        <Element Offset="3988" Vartype="String" Bytesize="8" OffsetHex="00000F94" DisplayMethod="无符号整数"/>
+        <Element Offset="3996" Vartype="Pointer" Bytesize="4" OffsetHex="00000F9C" Description="Pointer to instance of CBreakableSurface" DisplayMethod="无符号整数"/>
+        <Element Offset="4000" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000FA0" DisplayMethod="十六进制"/>
+        <Element Offset="4004" Vartype="String" Bytesize="10" OffsetHex="00000FA4" DisplayMethod="无符号整数"/>
+        <Element Offset="4014" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000FAE" DisplayMethod="无符号整数"/>
+        <Element Offset="4016" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000FB0" DisplayMethod="十六进制"/>
+        <Element Offset="4020" Vartype="String" Bytesize="9" OffsetHex="00000FB4" DisplayMethod="无符号整数"/>
+        <Element Offset="4029" Vartype="Byte" Bytesize="1" OffsetHex="00000FBD" DisplayMethod="无符号整数"/>
+        <Element Offset="4030" Vartype="String" Bytesize="5" OffsetHex="00000FBE" DisplayMethod="无符号整数"/>
+        <Element Offset="4035" Vartype="Byte" Bytesize="1" OffsetHex="00000FC3" DisplayMethod="无符号整数"/>
+        <Element Offset="4036" Vartype="String" Bytesize="4" OffsetHex="00000FC4" DisplayMethod="无符号整数"/>
+        <Element Offset="4040" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000FC8" DisplayMethod="无符号整数"/>
+        <Element Offset="4044" Vartype="Pointer" Bytesize="4" OffsetHex="00000FCC" Description="Pointer to instance of CBreakableSurface" DisplayMethod="无符号整数"/>
+        <Element Offset="4048" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000FD0" DisplayMethod="无符号整数"/>
+        <Element Offset="4052" Vartype="String" Bytesize="4" OffsetHex="00000FD4" DisplayMethod="无符号整数"/>
+        <Element Offset="4056" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000FD8" DisplayMethod="无符号整数"/>
+        <Element Offset="4060" Vartype="Pointer" Bytesize="4" OffsetHex="00000FDC" Description="Pointer to instance of CBreakableSurface" DisplayMethod="无符号整数"/>
+        <Element Offset="4064" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000FE0" DisplayMethod="十六进制"/>
+        <Element Offset="4068" Vartype="Byte" Bytesize="1" RLECount="8" OffsetHex="00000FE4" DisplayMethod="无符号整数"/>
+        <Element Offset="4076" Vartype="Pointer" Bytesize="4" OffsetHex="00000FEC" Description="Pointer to instance of CBreakableSurface" DisplayMethod="无符号整数"/>
+        <Element Offset="4080" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000FF0" DisplayMethod="十六进制"/>
+        <Element Offset="4084" Vartype="Byte" Bytesize="1" RLECount="5" OffsetHex="00000FF4" DisplayMethod="无符号整数"/>
+        <Element Offset="4089" Vartype="String" Bytesize="5" OffsetHex="00000FF9" DisplayMethod="无符号整数"/>
+        <Element Offset="4094" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="00000FFE" DisplayMethod="无符号整数"/>
+      </Elements>
+    </Structure>
+  </Structures>
+</CheatTable>
