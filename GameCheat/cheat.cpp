@@ -85,9 +85,8 @@ void cheat::cheatDraw()
 	::SetWindowPos(global::hwndCurrent, HWND_TOPMOST, RectGame.left, RectGame.top, RectGame.right - RectGame.left, RectGame.bottom - RectGame.top, SWP_SHOWWINDOW);
 	::SetWindowPos(global::hwndCurrent, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
 
-	::GetClientRect(global::hwndGame,&RectGameClient);
-	ViewWidth = RectGameClient.right / 2;
-	ViewHeight = RectGameClient.bottom/ 2;
+	ViewWidth = (RectGame.right - RectGame.left)/ 2;
+	ViewHeight = (RectGame.bottom - RectGame .top)/ 2;
 
 
 	cheat::readGameMemory(global::pServer_css_Module + 0x3D24B8, &roleNumber,sizeof(roleNumber));
