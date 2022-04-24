@@ -49,7 +49,7 @@ unsigned long tools::findProcessbyName(const wchar_t *name)
 
 void *tools::findModuleByName(const wchar_t *moduleName, unsigned long pid)
 {
-    HANDLE hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPMODULE, pid);
+    HANDLE hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPMODULE32 | TH32CS_SNAPMODULE, pid);
     void *ModuleBase = nullptr;
     if (hSnapshot == INVALID_HANDLE_VALUE)
         return 0;

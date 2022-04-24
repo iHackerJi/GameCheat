@@ -18,12 +18,8 @@ typedef struct _role
 
 namespace cheat
 {
-    extern bool aimBot;
     extern bool showBox;
-    extern 	HWND hGame;
-    extern 	HWND hwndCurrent;
-    extern unsigned long uGamePid;
-    extern HANDLE hGameProcess;
+
     bool init(RECT& RectGame);
     void getGameRect(RECT& RectGame);
     void unload();

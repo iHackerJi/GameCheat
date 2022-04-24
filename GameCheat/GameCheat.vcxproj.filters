@@ -22,6 +22,9 @@
     <Filter Include="cheat">
       <UniqueIdentifier>{03d7fb25-9d73-441e-ad84-30805a2d4a46}</UniqueIdentifier>
     </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{60f4f41b-9d41-4512-b552-533c09595214}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -53,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="cheat.cpp">
       <Filter>cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>global</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="def.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>global</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

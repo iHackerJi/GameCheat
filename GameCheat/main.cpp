@@ -25,17 +25,17 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 {
     // Create application window
     //ImGui_ImplWin32_EnableDpiAwareness();
-    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("ImGui Example"), NULL };
+    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("Cs:Source Cheat"), NULL };
     RECT RectGame = { 0 };
 
     cheat::init(RectGame);
     ::RegisterClassEx(&wc);
-    cheat::hwndCurrent = ::CreateWindowEx(WS_EX_TOPMOST | WS_EX_LAYERED,wc.lpszClassName, _T("Dear ImGui DirectX11 Example"), WS_POPUP, RectGame.left, RectGame.top, RectGame.right-RectGame.left, RectGame.bottom-RectGame.top, NULL, NULL, wc.hInstance, NULL);
-    SetLayeredWindowAttributes(cheat::hwndCurrent, 0, 0, LWA_ALPHA);
-    SetLayeredWindowAttributes(cheat::hwndCurrent, 0, RGB(0, 0, 0), LWA_COLORKEY);
+    global::hwndCurrent = ::CreateWindowEx(WS_EX_TOPMOST | WS_EX_LAYERED,wc.lpszClassName, _T("Cs:Source Cheat"), WS_POPUP, RectGame.left, RectGame.top, RectGame.right-RectGame.left, RectGame.bottom-RectGame.top, NULL, NULL, wc.hInstance, NULL);
+    SetLayeredWindowAttributes(global::hwndCurrent, 0, 0, LWA_ALPHA);
+    SetLayeredWindowAttributes(global::hwndCurrent, 0, RGB(0, 0, 0), LWA_COLORKEY);
 
      // Initialize Direct3D
-    if (!CreateDeviceD3D(cheat::hwndCurrent))
+    if (!CreateDeviceD3D(global::hwndCurrent))
     {
         CleanupDeviceD3D();
         ::UnregisterClass(wc.lpszClassName, wc.hInstance);
@@ -43,12 +43,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     }
 
     // Show the window
-    ::ShowWindow(cheat::hwndCurrent, SW_SHOW);
+    ::ShowWindow(global::hwndCurrent, SW_SHOW);
     MARGINS Margin = { -1, -1, -1, -1 };
-    DwmExtendFrameIntoClientArea(cheat::hwndCurrent, &Margin);
+    DwmExtendFrameIntoClientArea(global::hwndCurrent, &Margin);
 
-    ::UpdateWindow(cheat::hwndCurrent);
-    ::SetWindowPos(cheat::hwndCurrent, HWND_TOPMOST, RectGame.left, RectGame.top, RectGame.right - RectGame.left, RectGame.bottom - RectGame.top, SWP_SHOWWINDOW);
+    ::UpdateWindow(global::hwndCurrent);
+    ::SetWindowPos(global::hwndCurrent, HWND_TOPMOST, RectGame.left, RectGame.top, RectGame.right - RectGame.left, RectGame.bottom - RectGame.top, SWP_SHOWWINDOW);
 
     // Setup Dear ImGui context
     IMGUI_CHECKVERSION();
@@ -62,7 +62,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     //ImGui::StyleColorsClassic();
 
     // Setup Platform/Renderer backends
-    ImGui_ImplWin32_Init(cheat::hwndCurrent);
+    ImGui_ImplWin32_Init(global::hwndCurrent);
     ImGui_ImplDX11_Init(g_pd3dDevice, g_pd3dDeviceContext);
 
     ImFont* font = io.Fonts->AddFontFromFileTTF("c:\\Windows\\Fonts\\msyh.ttc", 18.0f, NULL, io.Fonts->GetGlyphRangesChineseFull());
@@ -105,21 +105,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         ImGui::Begin(u8"CS起源辅助", NULL, menuFlags);
         if (ImGui::CollapsingHeader(u8"方框"))
         {
-            ImGui::Checkbox(u8"队友方框", &cheat::showBox);
+            ImGui::Checkbox(u8"敌人方框", &cheat::showBox);
         }
-        if (ImGui::CollapsingHeader(u8"自瞄"))
-        {
-            ImGui::Checkbox(u8"开枪自瞄", &cheat::aimBot);
-        }
-
-       ImGui::GetForegroundDrawList()->AddLine(ImVec2(0, 0), ImVec2(100, 0), ImColor(84, 255, 159, 255), 1);
 
         ImGui::End();
 
         cheat::cheatDraw();
-
-
-
 
         ImGui::EndFrame();
 
@@ -140,7 +131,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     ImGui::DestroyContext();
 
     CleanupDeviceD3D();
-    ::DestroyWindow(cheat::hwndCurrent);
+    ::DestroyWindow(global::hwndCurrent);
     ::UnregisterClass(wc.lpszClassName, wc.hInstance);
     cheat::unload();
     return 0;

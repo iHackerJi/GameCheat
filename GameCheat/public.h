@@ -16,6 +16,8 @@
 #include <tchar.h>
 
 #include "def.h"
+#include "global.h"
 #include "tools.h"
 #include "cheat.h"
+
 
