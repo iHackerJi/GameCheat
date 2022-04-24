@@ -91,7 +91,7 @@ void cheat::cheatDraw()
 
 
 	cheat::readGameMemory(global::pServer_css_Module + 0x3D24B8, &roleNumber,sizeof(roleNumber));
-	cheat::readGameMemory(global::pEngine_Module + 0x48BCB4 - 0x18, &Matrix, sizeof(Matrix));
+	cheat::readGameMemory(global::pEngine_Module + 0x48BCB4 - 0x18, &Matrix, sizeof(Matrix));//这个矩阵找的有点问题，但是能用
 
 	unsigned long playerbaseAddr = 0;
 	cheat::readGameMemory(global::pServer_css_Module + 0x3D24D4 + 0 * 0x10, &playerbaseAddr, sizeof(playerbaseAddr));
