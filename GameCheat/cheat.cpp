@@ -35,12 +35,12 @@ void cheat::drawBox(float x,float y,float w,float h,ImColor color,float t)
 
 bool cheat::init(RECT & RectGame)
 {
-	global::hwndGame = ::FindWindow(CHEAT_GAME_CLASSW, CHEAT_GAME_NAMEW);
+	global::hwndGame = ::FindWindow(CHEAT_GAME_CLASSW, NULL);
 	getGameRect(RectGame);
 	bool result = false;
 	do 
 	{
-		global::uGamePid = tools::findProcessbyName(L"hl2.exe");
+		global::uGamePid = tools::findProcessbyName(L"csgo.exe");
 		if (global::uGamePid == 0)
 			break;
 
@@ -48,12 +48,15 @@ bool cheat::init(RECT & RectGame)
 		if (global::hGameProcess == nullptr)
 			break;
 
-		global::pServer_css_Module = (char *)tools::findModuleByName(L"server_css.dll", global::uGamePid);
-		if (global::pServer_css_Module == nullptr)
+		global::pClient_Module = (char *)tools::findModuleByName(L"client.dll", global::uGamePid);
+		if (global::pClient_Module == nullptr)
 			break;
 
 		global::pEngine_Module = (char*)tools::findModuleByName(L"engine.dll", global::uGamePid);
 		if (global::pEngine_Module == nullptr)
+			break;
+
+		if (cheat::readGameMemory(global::pEngine_Module + hazedumper::signatures::dwClientState, &global::pClient_State, 4) == FALSE)
 			break;
 
 		result = true;
@@ -89,18 +92,25 @@ void cheat::cheatDraw()
 	ViewHeight = (RectGame.bottom - RectGame .top)/ 2;
 
 
-	cheat::readGameMemory(global::pServer_css_Module + 0x3D24B8, &roleNumber,sizeof(roleNumber));
-	cheat::readGameMemory(global::pEngine_Module + 0x48BCB4 - 0x18, &Matrix, sizeof(Matrix));//这个矩阵找的有点问题，但是能用
+	cheat::readGameMemory(global::pClient_State + hazedumper::signatures::dwClientState_MaxPlayer, &roleNumber,sizeof(roleNumber));
+	cheat::readGameMemory(global::pClient_Module + hazedumper::signatures::dwViewMatrix, &Matrix, sizeof(Matrix));
 
 	unsigned long playerbaseAddr = 0;
-	cheat::readGameMemory(global::pServer_css_Module + 0x3D24D4 + 0 * 0x10, &playerbaseAddr, sizeof(playerbaseAddr));
-	cheat::readGameMemory((char *)playerbaseAddr, &player, sizeof(player)); // 拿玩家数据
+	cheat::readGameMemory(global::pClient_Module + hazedumper::signatures::dwLocalPlayer, &playerbaseAddr, sizeof(playerbaseAddr));
+	//cheat::readGameMemory((char *)playerbaseAddr, &player, sizeof(player)); // 拿玩家数据
+	cheat::readGameMemory((char*)playerbaseAddr + hazedumper::netvars::m_iTeamNum, &player.flag, 4);//阵容标识
 
-	for (int i = 1 ; i < roleNumber ; i++)
+	for (int i = 0 ; i <= roleNumber ; i++)
 	{
 		unsigned long rolebaseAddr = 0;
-		cheat::readGameMemory(global::pServer_css_Module + 0x3D24D4 + i * 0x10, &rolebaseAddr, sizeof(rolebaseAddr));
-		cheat::readGameMemory((char*)rolebaseAddr, &role, sizeof(role));
+		cheat::readGameMemory(global::pClient_Module + hazedumper::signatures::dwEntityList + i * 0x10, &rolebaseAddr, sizeof(rolebaseAddr));
+
+		cheat::readGameMemory((char*)rolebaseAddr + hazedumper::netvars::m_iTeamNum , &role.flag,4);//阵容标识
+		cheat::readGameMemory((char*)rolebaseAddr + hazedumper::netvars::m_iHealth, &role.hp, 4);//拿血量
+		cheat::readGameMemory((char*)rolebaseAddr + hazedumper::netvars::m_vecOrigin, &role.x, sizeof(float)*3);
+
+	
+
 		if (role.flag == player.flag || role.hp == 0 || role.hp == 1) // 不绘制队友、死人
 			continue;
 

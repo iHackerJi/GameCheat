@@ -6,6 +6,7 @@ namespace global
 	HWND hwndCurrent = nullptr;
 	unsigned long uGamePid = 0;
 	HANDLE hGameProcess = nullptr;
-	char* pServer_css_Module = nullptr;
+	char* pClient_Module = nullptr;
 	char* pEngine_Module = nullptr;
+	char* pClient_State = nullptr;
 }

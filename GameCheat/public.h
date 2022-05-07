@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string.h>
 #include <TlHelp32.h>
+#include <cstdint>
 
 #include "imgui.h"
 #include "imgui_impl_win32.h"

@@ -25,12 +25,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 {
     // Create application window
     //ImGui_ImplWin32_EnableDpiAwareness();
-    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("Cs:Source Cheat"), NULL };
+    WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("Cs:Go Cheat"), NULL };
     RECT RectGame = { 0 };
 
     cheat::init(RectGame);
     ::RegisterClassEx(&wc);
-    global::hwndCurrent = ::CreateWindowEx(WS_EX_TOPMOST | WS_EX_LAYERED,wc.lpszClassName, _T("Cs:Source Cheat"), WS_POPUP, RectGame.left, RectGame.top, RectGame.right-RectGame.left, RectGame.bottom-RectGame.top, NULL, NULL, wc.hInstance, NULL);
+    global::hwndCurrent = ::CreateWindowEx(WS_EX_TOPMOST | WS_EX_LAYERED,wc.lpszClassName, _T("Cs:Go Cheat"), WS_POPUP, RectGame.left, RectGame.top, RectGame.right-RectGame.left, RectGame.bottom-RectGame.top, NULL, NULL, wc.hInstance, NULL);
     SetLayeredWindowAttributes(global::hwndCurrent, 0, 0, LWA_ALPHA);
     SetLayeredWindowAttributes(global::hwndCurrent, 0, RGB(0, 0, 0), LWA_COLORKEY);
 
@@ -102,7 +102,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
         //draw
         ImGuiWindowFlags menuFlags = 0;
-        ImGui::Begin(u8"CS起源辅助", NULL, menuFlags);
+        ImGui::Begin(u8"CS辅助", NULL, menuFlags);
         if (ImGui::CollapsingHeader(u8"方框"))
         {
             ImGui::Checkbox(u8"敌人方框", &cheat::showBox);
