@@ -110,7 +110,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
         ImGui::End();
 
-        cheat::cheatDraw();
+        //cheat::cheatDraw();
+        cheat::aimbot(110.0f);
 
         ImGui::EndFrame();
 

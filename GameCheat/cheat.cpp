@@ -21,6 +21,14 @@ bool cheat::readGameMemory(const char * targetAddress,void * buffer,unsigned lon
 	return	::ReadProcessMemory(global::hGameProcess, targetAddress, buffer, size, &readofNumber);
 }
 
+bool cheat::writeGameMemory(const char* targetAddress, void* buffer, unsigned long size)
+{
+	SIZE_T writeofNumber;
+	return	::WriteProcessMemory(global::hGameProcess, (LPVOID)targetAddress, buffer, size, &writeofNumber);
+}
+
+
+
 void cheat::drawBox(float x,float y,float w,float h,ImColor color,float t)
 {
 	float cx = x + w;
@@ -138,4 +146,107 @@ void cheat::cheatDraw()
 		float hpPercentage = role.hp / 100.0f;
 		ImGui::GetForegroundDrawList()->AddLine(ImVec2(Sc_x - 10.0f, Sc_head), ImVec2(Sc_x - 10.0f, (Sc_head + BoxHeight * hpPercentage)), ImColor(247, 9, 104),5.0f );
 	}
+}
+
+
+
+void xyzToAngle(_role player, _role role,float *Angle)
+{
+	float x = player.x - role.x;
+	float y = player.y - role.y;
+	float z = player.z - role.z + 65.0f;
+
+	const float pi = 3.1415f;
+	Angle[0] = (float)atan(z / sqrt(x * x + y * y)) * 180.0f / pi;
+	//算左右角度
+	Angle[1] = (float)atan(y / x) * 180.0f / pi;
+
+	if (x >= 0.0f && y >= 0.0f) Angle[1] = Angle[1] - 180.0f; //相对于自己是第四象限
+	else if (x < 0.0f && y >= 0.0f) Angle[1] = Angle[1]; //相对于自己而言为第一象限
+	else if (x < 0.0f && y < 0.0f) Angle[1] = Angle[1]; //相对于自己而言为第二象限
+	else if (x >= 0.0f && y < 0.0f) Angle[1] = Angle[1] + 180.f; //相对于自己而言是第三象限
+}
+
+
+void cheat::aimbot(float maxAngle)
+{
+	do
+	{
+		unsigned long playerbaseAddr = 0;
+		bool is_fired = false;
+		uint32_t hp = 0;
+		cheat::readGameMemory(global::pClient_Module + hazedumper::signatures::dwLocalPlayer, &playerbaseAddr, sizeof(playerbaseAddr));
+		cheat::readGameMemory((char*)playerbaseAddr + hazedumper::netvars::m_iShotsFired, &is_fired, sizeof(is_fired));
+		cheat::readGameMemory((char*)playerbaseAddr + hazedumper::netvars::m_iHealth, &hp, sizeof(hp));
+		if (is_fired == false && hp == 0) false;
+
+		float player_view_angles[2] = { 0 };
+		_role player = { 0 };
+		_role role = { 0 };
+		cheat::readGameMemory((char*)global::pClient_State + hazedumper::signatures::dwClientState_ViewAngles, &player_view_angles, sizeof(player_view_angles));//获取自身角度
+		cheat::readGameMemory((char*)playerbaseAddr + hazedumper::netvars::m_vecOrigin, &player.x, sizeof(float) * 3);//获取自身角度
+		cheat::readGameMemory((char*)playerbaseAddr + hazedumper::netvars::m_iTeamNum, &player.flag, 4);//阵容标识
+
+		int mini_angle[2] = { 0 };//最小角度
+		
+		float aim_angle[2] = {0};
+		bool first = false;
+		for (int i = 0; i < 64; i++)
+		{
+			uint32_t rolebaseAddr = 0;
+			cheat::readGameMemory(global::pClient_Module + hazedumper::signatures::dwEntityList + i * 0x10, &rolebaseAddr, sizeof(rolebaseAddr));
+			cheat::readGameMemory((char*)rolebaseAddr + hazedumper::netvars::m_iHealth, &role.hp, 4);//拿血量
+			cheat::readGameMemory((char*)rolebaseAddr + hazedumper::netvars::m_iTeamNum, &role.flag, 4);//阵容标识
+
+			int bone_id[] = { 8, 4, 3, 7, 6, 5 };
+			float role_angle[2] = { 0 };
+
+			for (int j = 0; j < sizeof(bone_id)/sizeof(int) ; j++)
+			{
+				float boneMtrix[3][4] = {0};
+
+				uint32_t bonebase = 0;
+				cheat::readGameMemory((const char*)rolebaseAddr + hazedumper::netvars::m_dwBoneMatrix , &bonebase, sizeof(bonebase));
+				cheat::readGameMemory((const char*)bonebase + bone_id[j] * 0x30, &boneMtrix, sizeof(boneMtrix));
+				
+				if (boneMtrix[0][3] ==0 || boneMtrix[1][3] == 0 || boneMtrix[2][3] == 0 || role.hp == 0 || player.flag == role.flag)
+				{
+					continue;
+				}
+				role.x = boneMtrix[0][3];
+				role.y = boneMtrix[1][3];
+				role.z = boneMtrix[2][3];
+				xyzToAngle(player, role, role_angle);
+
+				if (first == false)
+				{
+					//自身角度xy-减去自瞄视角xy 存入Minimumangle
+					mini_angle[0] = abs((int)(player_view_angles[0] - role_angle[0]));
+					mini_angle[1] = abs((int)(player_view_angles[1] - role_angle[1]));
+					aim_angle[0] = role_angle[0];
+					aim_angle[1] = role_angle[1];
+					first = true;
+				}
+				else if ((mini_angle[0] + mini_angle[1]) > ((abs((int)(player_view_angles[0] - role_angle[0]))) + abs((int)(player_view_angles[1] - role_angle[1]))))
+				{
+					mini_angle[0] = abs((int)(player_view_angles[0] - role_angle[0]));
+					mini_angle[1] = abs((int)(player_view_angles[1] - role_angle[1]));
+					aim_angle[0] = role_angle[0];
+					aim_angle[1] = role_angle[1];
+				}
+			}
+		}
+		writeGameMemory(global::pClient_State + hazedumper::signatures::dwClientState_ViewAngles, aim_angle, sizeof(float) * 2);
+		Sleep(1000);
+
+
+	} while (false);
+
+
+
+
+
+
+	
+	return;
 }

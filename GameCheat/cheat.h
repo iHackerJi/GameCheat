@@ -25,5 +25,7 @@ namespace cheat
     void unload();
     void cheatDraw();
     bool readGameMemory(const char* targetAddress, void* buffer, unsigned long size);
+    bool writeGameMemory(const char* targetAddress, void* buffer, unsigned long size);
     void drawBox(float x, float y, float cx, float cy, ImColor color, float w);
+    void aimbot(float maxAngle);
 }
